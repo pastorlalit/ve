@@ -1,0 +1,281 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      #HomePage_Banner_left{
+          min-height: 435px;
+          height:auto;
+          background:rgba(0,0,0,0.6);
+          color:white;
+      }
+      .bg-mobile{
+           min-height: 476px;
+           background:url(../../images/homepage_banner.png), linear-gradient(45deg, #0070d8 0%, #007dca 100%);;
+           background-size: cover;
+           background-repeat: no-repeat;
+           z-index: 0;
+           margin-top:20px;
+           padding-top:0px;  
+      }
+      .HomePage__Banner__title {
+          font-family: 'Josefin Slab', serif;
+          font-weight: bold;
+          font-size: 30px;
+          max-width: 580px;
+          color: #ffb800;
+          line-height: 1.2;
+          letter-spacing: -1.1px;
+      }
+
+      .HomePage__Banner__subtitle {
+          font-family: "Quattrocento Sans";
+          font-size: 18px;
+          max-width: 494px;
+          line-height: 24px;
+          color: #f5f8fa;
+      }
+
+      .HomePage__Banner__video {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          cursor: pointer;
+          width: -webkit-fit-content;
+          width: -moz-fit-content;
+          width: fit-content;
+          margin-top:20px;
+      }
+
+      .HomePage__Banner__video__control {
+          width: 84px;
+          height: 84px;
+          border-radius: 50%;
+          background-color: rgba(239, 61, 61, 0.1);
+
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-animation: pound 2s infinite;
+          animation: pound 2s infinite;
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+
+      }
+
+      .HomePage__Banner__video__control__2 {
+          width: 64px;
+          height: 64px;
+          border-radius: 50%;
+          background-color: rgba(239, 64, 61, 0.2);
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-animation: pound 2s infinite;
+          animation: pound 2s infinite;
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+      }
+
+      .HomePage__Banner__video img {
+          width: 50px;
+          height: 50px;
+          -webkit-animation: pound 1s infinite;
+          animation: pound 1s infinite;
+          -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+
+      }
+      .HomePage__Banner__video__title__text, .HomePage__Banner__video__title__subtext{
+          color:#f5f8fa;
+      }
+      .HomePage__Banner__image{
+          display:none;
+      }
+      /*call to action*/
+      #callToAction {
+          background-color: #007dca;
+          background-image: url(../../images/patterns/overlay.svg), linear-gradient(45deg, #0070d8 0%, #007dca 100%);
+          background-size: cover;
+          background-repeat: no-repeat;
+          z-index: 0;
+      }
+
+      #callToAction h2 {
+          font-size: 28px;
+          margin-bottom: 10px;
+          line-height: 38px;
+
+      }
+      #heading-courses h3{
+          font-size: 28px;
+          margin-bottom:10px;
+      }
+      #notificationBox{
+          width:270px;
+      }
+      #homeStundentPlaced{
+         padding:5px; 
+      }
+      #heading-placement{
+          font-size:28px;
+      }
+      #bottom-foot-content {
+      padding: 11px;
+      }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+      #notificationBox{
+          width:430px;
+      }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+        
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+        #notificationBox{
+          width:520px;
+      }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      #notificationBox{
+          width:325px;
+      }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+        
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+      
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+        #notificationBox{
+          width:365px;
+      }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
