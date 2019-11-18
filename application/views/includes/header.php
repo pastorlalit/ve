@@ -10,7 +10,7 @@
           <div class="responsive-nav">
             <!-- top navigation menu start -->
             <nav class="top-nav" id="topNav">
-                <ul>
+                <ul style="overflow-y: auto; top:4px">
                     <li class="<?php if ($this->uri->uri_string() == '') { echo 'selected';} ?>">
                         <a href="<?php echo base_url() ?>"><span>Home</span></a>
                     </li>
@@ -38,11 +38,11 @@
                         echo 'selected';
                     }
                     ?>"><a href="<?php echo base_url() ?>courses"><span>All Courses</span></a>
-                        <ul>
+                        <ul style="padding: 0 4px;margin: 0 10px;">
                             <li>
                                 <div class="mega-content">
                                     <div class="row">
-                                        <ul>
+                                        <ul style="background:#007dca; height: 250px; overflow-y: auto">
                                             <li class="col-md-3">
                                                 <ul>
                                                     <li><a href="<?php echo base_url() ?>courses/ibps_po"><i class="fa fa-book"></i>IBPS PO</a></li>

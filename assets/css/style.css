@@ -1522,7 +1522,8 @@ header.full .top-nav .mega-menu > ul {
 	font-size: 15px;
 	border-bottom: 1px rgba(255,255,255,.2) solid;
 	padding: 0 10px;
-	margin:0
+	margin:0;
+        
 }
 .responsive-menu > ul li i{
 	margin-right:8px;
@@ -1587,8 +1588,8 @@ header.full .top-nav .mega-menu > ul {
     margin-top: -11px;
 }
 .newNav.oppenned span:nth-child(2){
-    height: 400px;
-    width: 400px;
+    height: 410px;
+    width: 420px;
     left: -160px;
     top: 28px;
     background-color: #444;
