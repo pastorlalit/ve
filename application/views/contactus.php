@@ -69,7 +69,7 @@
 									<h3 class="uppercase"><span class="main-color">Get In </span> Touch</h3>
 								</div>
 								
-								<form id="contact-form" class="ajax-form" name="contact" action="assets/php/sendemail.php" method="post" novalidate="novalidate"><grammarly-extension class="_1KJtL" style="position: absolute; top: 0px; left: 0px; pointer-events: none;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 199px; left: 2px; width: 453.5px; height: 140.8px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;"><div style="height: 964px; width: 1989px;"></div><div style="position: absolute; top: 0px; left: 0px; height: 964px; width: 1989px;"></div></div></div></div><div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 199px; left: 2px; width: 453.5px; height: 140.8px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 130.8px; left: 441.5px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div style="position: relative;"></div><div><div class="_5WizN _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe">&nbsp;</div></div></div></div></div></div></div></div></grammarly-extension>
+								<form id="contact-form" class="ajax-form" name="contact" action="" method="post" novalidate="novalidate"><grammarly-extension class="_1KJtL" style="position: absolute; top: 0px; left: 0px; pointer-events: none;"><div data-grammarly-part="highlights" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 199px; left: 2px; width: 453.5px; height: 140.8px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; top: 0px; left: 0px;"><div style="height: 964px; width: 1989px;"></div><div style="position: absolute; top: 0px; left: 0px; height: 964px; width: 1989px;"></div></div></div></div><div data-grammarly-part="button" class="u_fNK" style="position: absolute; top: 0px; left: 0px;"><div style="box-sizing: content-box; top: 199px; left: 2px; width: 453.5px; height: 140.8px; position: relative; pointer-events: none; overflow: hidden; border: 0px; border-radius: 0px; padding: 0px; margin: 0px;"><div style="position: absolute; transform: translate(-100%, -100%); top: 130.8px; left: 441.5px; width: auto; height: auto; pointer-events: all;"><div style="display: flex; flex-direction: row;"><div style="position: relative;"></div><div><div class="_5WizN _1QzSN"><div class="_3YmQx"><div title="Protected by Grammarly" class="_3QdKe">&nbsp;</div></div></div></div></div></div></div></div></grammarly-extension>
 
 									<div class="contact-msg">
 										<div class="alert alert-success">
@@ -85,12 +85,12 @@
 										
 										<div class="col-md-6">
 											<label for="contact-name">Name <small>*</small></label>
-											<input type="text" id="contact-name" name="contact-name" placeholder="Enter Your Name" class="form-control required">
+											<input type="text" id="contact-name" name="contactname" placeholder="Enter Your Name" class="form-control required">
 										</div>
 
 										<div class="col-md-6">
 											<label for="contact-email">Email <small>*</small></label>
-											<input type="email" id="contact-email" name="contact-email" placeholder="Enter Your Email" class="form-control required">
+											<input type="email" id="contact-email" name="contactemail" placeholder="Enter Your Email" class="form-control required">
 										</div>
 
 
@@ -100,14 +100,14 @@
 
 										<div class="col-md-12">
 											<label for="contact-subject">Subject <small>*</small></label>
-											<input type="text" id="contact-subject" placeholder="Type Subject" name="contact-subject" class="form-control required">
+											<input type="text" id="contact-subject" placeholder="Type Subject" name="contactsubject" class="form-control required">
 										</div>
 
 									</div>
 
 									<div class="form-group over-hidden">
 										<label for="contact-message">Message <small>*</small></label>
-										<textarea id="contact-message" placeholder="Type Your Message" name="contact-message" rows="6" cols="30" class="form-control required" spellcheck="false"></textarea>
+										<textarea id="contact-message" placeholder="Type Your Message" name="contactmessage" rows="6" cols="30" class="form-control required" spellcheck="false"></textarea>
 									</div>
                                                                         <div class="form-group m-t-2">
 										<button class="btn main-bg btn-lg border3px" type="submit" id="contact-submit" name="contact-submit" value="submit"><i class="fa fa-send"></i>Send Message</button>
