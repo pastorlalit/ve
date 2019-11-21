@@ -777,7 +777,7 @@ canvas {
     font-size: 14px;
     text-align: justify
 }
-.login-validation-msg{
+.login-validation-msg,.contact-validation-msg{
     font-family:"Quattrocento Sans";
     margin-top:5px;
     margin-left:5px;
@@ -800,3 +800,7 @@ canvas {
 #login-txt-box{
     background:url(../images/patterns/bg-texture.png);
 }
+#contactAdd{
+    font-size:21px;
+}
+
