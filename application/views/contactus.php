@@ -72,7 +72,7 @@
                                 <?php 
                                $attributes = array('name'=>'contact','role' => 'form',);
                                echo form_open('Contactus/contactForm', $attributes); ?>
-                                <!--<form id="contact-form" class="ajax-form" name="contact" action="" method="post" novalidate="novalidate">-->
+                               
                                      <?php 
                                                    $resultMsg = $this->session->flashdata('resultMsg');
                                                     switch ($resultMsg) {
@@ -100,14 +100,14 @@
                                         <div class="col-md-6">
                                             <label for="contact-name">Name <small>*</small></label>
                                             <?php echo form_input(['class' => 'form-control', 'name' => 'contactname', 'id' => 'contact-name', 'type' => 'text', 'placeholder' => 'Enter Your Name','value' => set_value('contactname')]); ?>
-                                            <!--<input type="text" id="contact-name" name="contactname" placeholder="Enter Your Name" class="form-control required">-->
+                                            
                                             <div class="contact-validation-msg"><?php echo form_error('contactname') ?></div>
                                         </div>
 
                                         <div class="col-md-6">
                                             <label for="contact-email">Email <small>*</small></label>
                                             <?php echo form_input(['class' => 'form-control', 'name' => 'contactemail', 'id' => 'contact-email', 'type' => 'email', 'placeholder' => 'Enter Your Email','value' => set_value('contactemail')]); ?>
-                                            <!--<input type="email" id="contact-email" name="contactemail" placeholder="Enter Your Email" class="form-control required">-->
+                                            
                                             <div class="contact-validation-msg"><?php echo form_error('contactemail') ?></div>
                                         </div>
                                     </div>
@@ -116,7 +116,7 @@
                                         <div class="col-md-6">
                                             <label for="contact-number">Contact Number <small>*</small></label>
                                             <?php echo form_input(['class' => 'form-control', 'name' => 'contactnumber', 'id' => 'contact-number', 'type' => 'text', 'placeholder' => 'Enter Your Number','value' => set_value('contactnumber')]); ?>
-                                            <!--<input type="text" id="contact-name" name="contactname" placeholder="Enter Your Name" class="form-control required">-->
+                                            
                                             <div class="contact-validation-msg">
                                                 <?php echo form_error('contactnumber') ?>
                                             </div>
@@ -125,7 +125,7 @@
                                         <div class="col-md-6">
                                             <label for="contact-city">City <small>*</small></label>
                                             <?php echo form_input(['class' => 'form-control', 'name' => 'contactcity', 'id' => 'contact-city', 'type' => 'text', 'placeholder' => 'Enter Your City','value' => set_value('contactcity')]); ?>
-                                            <!--<input type="email" id="contact-email" name="contactemail" placeholder="Enter Your Email" class="form-control required">-->
+                                            
                                             <div class="contact-validation-msg"><?php echo form_error('contactcity') ?></div>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@
                                         <div class="col-md-12">
                                             <label for="contact-subject">Subject <small>*</small></label>
                                             <?php echo form_input(['class' => 'form-control', 'name' => 'contactsubject', 'id' => 'contact-subject', 'type' => 'text', 'placeholder' => 'Enter Subject','value' => set_value('contactsubject')]); ?>
-                                            <!--<input type="text" id="contact-subject" placeholder="Enter Subject" name="contactsubject" class="form-control required">-->
+                                            
                                             <div class="contact-validation-msg"><?php echo form_error('contactsubject') ?></div>
                                         </div>
 
@@ -143,7 +143,7 @@
                                     <div class="form-group over-hidden">
                                         <label for="contact-message">Message <small>*</small></label>
                                         <?php echo form_textarea(['class' => 'form-control', 'name' => 'contactmessage', 'id' => 'contact-message','rows'=>'6', 'cols'=>'30' ,'type' => 'text', 'placeholder' => 'Enter Your Message','value' => set_value('contactmessage')]); ?>
-                                        <!--<textarea id="contact-message" placeholder="Type Your Message" name="contactmessage" rows="6" cols="30" class="form-control required" spellcheck="false"></textarea>-->
+                                       
                                     <div class="contact-validation-msg"><?php echo form_error('contactmessage') ?></div>
                                     </div>
                                     <div class="form-group m-t-2">
