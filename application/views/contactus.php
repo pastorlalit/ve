@@ -125,7 +125,6 @@
                                         <div class="col-md-6">
                                             <label for="contact-city">City <small>*</small></label>
                                             <?php echo form_input(['class' => 'form-control', 'name' => 'contactcity', 'id' => 'contact-city', 'type' => 'text', 'placeholder' => 'Enter Your City','value' => set_value('contactcity')]); ?>
-                                            
                                             <div class="contact-validation-msg"><?php echo form_error('contactcity') ?></div>
                                         </div>
                                     </div>

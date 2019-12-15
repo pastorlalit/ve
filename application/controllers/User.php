@@ -11,6 +11,7 @@ class User extends CI_Controller {
        if($this->session->userdata('userid')){
             return redirect('Testseries');
         }
+        $this->load->library('user_agent');
         $this->load->library('form_validation');
         $this->form_validation->set_rules('username', 'username', 'required|valid_email');
         $this->form_validation->set_rules('password', 'password', 'required|min_length[6]|max_length[12]');
