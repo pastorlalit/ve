@@ -361,7 +361,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="heading style3">
-                            <h3 class="uppercase">Vibrant <span class="main-color">Test Series</span></h3>
+                            <h3 class="uppercase"><b>Vibrant <span class="main-color">Test Series</span></b></h3>
                             <p>Attempt our exam-wise mock tests daily to improve your score</p>
                         </div>
                         <div class="row">
@@ -411,7 +411,7 @@
                                 <div class="cta-full">
                                     <h4 class="cta_heading">So if you were waiting for the perfect time to seize this opportunity, the time is now. </h4>
                                     <br/>
-                                    <h2 class="cta_heading">Call us at <span class="main-color uppercase">98-262-262-99</span></h2>
+                                    <h2 class="cta_heading">Call us at <span class="main-color uppercase"><b>98-262-262-99</b></span></h2>
                                 </div>    
 
                                 <div class="m-t-3">
@@ -633,102 +633,106 @@
 
                 <div class="col-md-3" id="placementCard">
                     <center>
-                        <img class="placementImage"
-                             src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/images/profile-pictures/manshul-goel.jpg" />
+                        <img class="placementImage" src="<?php echo base_url() ?>assets/images/people/Aarti_PO_Bank _of_Baroda.png" />
                     </center>
                     <center>
-                        <p class="placementName main-color">Lalit Pastor</p>
+                        <p class="placementName main-color">Aarti </p>
+                        <p class="placement-card-post">PO</p>
+                        <p class="placement-card-org">Bank of Baroda</p>
                     </center>
                     <center>
-                        <img class="placementFirm" alt="" src="assets/images/clients/3.png">
-                    </center>
-                </div>
-
-                <div class="col-md-3" id="placementCard">
-                    <center>
-                        <img class="placementImage"
-                             src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/images/profile-pictures/manshul-goel.jpg" />
-                    </center>
-                    <center>
-                        <p class="placementName main-color">Lalit Pastor</p>
-                    </center>
-                    <center>
-                        <img class="placementFirm" alt="" src="assets/images/clients/3.png">
+                        <img class="placementFirm" alt="" src="<?php echo base_url() ?>assets/images/people/Bank_of_Baroda_logo.png">
                     </center>
                 </div>
                 <div class="col-md-3" id="placementCard">
                     <center>
-                        <img class="placementImage"
-                             src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/images/profile-pictures/manshul-goel.jpg" />
+                        <img class="placementImage" src="<?php echo base_url() ?>assets/images/people/Abhinav_Indian_Bank_CLK.png" />
                     </center>
                     <center>
-                        <p class="placementName main-color">Lalit Pastor</p>
+                        <p class="placementName main-color">Abhinav </p>
+                        <p class="placement-card-post">Clerk</p>
+                        <p class="placement-card-org">Indian Bank</p>
                     </center>
                     <center>
-                        <img class="placementFirm" alt="" src="assets/images/clients/3.png">
-                    </center>
-                </div>
-                <div class="col-md-3" id="placementCard">
-                    <center>
-                        <img class="placementImage"
-                             src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/images/profile-pictures/manshul-goel.jpg" />
-                    </center>
-                    <center>
-                        <p class="placementName main-color">Lalit Pastor</p>
-                    </center>
-                    <center>
-                        <img class="placementFirm" alt="" src="assets/images/clients/3.png">
-                    </center>
-                </div>
-
-
-                <div class="col-md-3" id="placementCard">
-                    <center>
-                        <img class="placementImage"
-                             src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/images/profile-pictures/manshul-goel.jpg" />
-                    </center>
-                    <center>
-                        <p class="placementName main-color">Lalit Pastor</p>
-                    </center>
-                    <center>
-                        <img class="placementFirm" alt="" src="assets/images/clients/3.png">
-                    </center>
-                </div>
-
-                <div class="col-md-3" id="placementCard">
-                    <center>
-                        <img class="placementImage"
-                             src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/images/profile-pictures/manshul-goel.jpg" />
-                    </center>
-                    <center>
-                        <p class="placementName main-color">Lalit Pastor</p>
-                    </center>
-                    <center>
-                        <img class="placementFirm" alt="" src="assets/images/clients/3.png">
+                        <img class="placementFirm" alt="" src="<?php echo base_url() ?>assets/images/people/indian-bank-vector-logo.png">
                     </center>
                 </div>
                 <div class="col-md-3" id="placementCard">
                     <center>
-                        <img class="placementImage"
-                             src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/images/profile-pictures/manshul-goel.jpg" />
+                        <img class="placementImage" src="<?php echo base_url() ?>assets/images/people/Akaash_Bank_of_Maharashtr_ PO.png" />
                     </center>
                     <center>
-                        <p class="placementName main-color">Lalit Pastor</p>
+                        <p class="placementName main-color">Akaash</p>
+                        <p class="placement-card-post">PO</p>
+                        <p class="placement-card-org">Bank of Maharashtra</p>
                     </center>
                     <center>
-                        <img class="placementFirm" alt="" src="assets/images/clients/3.png">
+                        <img class="placementFirm" alt="" src="<?php echo base_url() ?>assets/images/people/Bank-of-Maharashtra-Logo.png">
                     </center>
                 </div>
                 <div class="col-md-3" id="placementCard">
                     <center>
-                        <img class="placementImage"
-                             src="https://ik.imagekit.io/upgrad1/marketing-platform-assets/images/profile-pictures/manshul-goel.jpg" />
+                        <img class="placementImage" src="<?php echo base_url() ?>assets/images/people/Aman_Indian_Bank_PO.png" />
                     </center>
                     <center>
-                        <p class="placementName main-color">Lalit Pastor</p>
+                        <p class="placementName main-color">Aman</p>
+                        <p class="placement-card-post">PO</p>
+                        <p class="placement-card-org">Indian Bank</p>
                     </center>
                     <center>
-                        <img class="placementFirm" alt="" src="assets/images/clients/3.png">
+                        <img class="placementFirm" alt="" src="<?php echo base_url() ?>assets/images/people/indian-bank-vector-logo.png">
+                    </center>
+                </div>
+                <div class="col-md-3" id="placementCard">
+                    <center>
+                        <img class="placementImage" src="<?php echo base_url() ?>assets/images/people/Amit David Canera Bank CLK1.png" />
+                    </center>
+                    <center>
+                        <p class="placementName main-color">Amit</p>
+                        <p class="placement-card-post">Clerk</p>
+                        <p class="placement-card-org">Canera Bank</p>
+                    </center>
+                    <center>
+                        <img class="placementFirm" alt="" src="<?php echo base_url() ?>assets/images/people/Canara_Bank_logo.png">
+                    </center>
+                </div>
+                <div class="col-md-3" id="placementCard">
+                    <center>
+                        <img class="placementImage" src="<?php echo base_url() ?>assets/images/people/Anita_Dena_Bank_CLK.png" />
+                    </center>
+                    <center>
+                        <p class="placementName main-color">Anita</p>
+                        <p class="placement-card-post">Clerk</p>
+                        <p class="placement-card-org">Dena Bank</p>
+                    </center>
+                    <center>
+                        <img class="placementFirm" alt="" src="<?php echo base_url() ?>assets/images/people/dena_bank.png">
+                    </center>
+                </div>
+                <div class="col-md-3" id="placementCard">
+                    <center>
+                        <img class="placementImage" src="<?php echo base_url() ?>assets/images/people/Anupriya-sbi-clerk.png" />
+                    </center>
+                    <center>
+                        <p class="placementName main-color">Anupriya</p>
+                        <p class="placement-card-post">Clerk</p>
+                        <p class="placement-card-org">SBI </p>
+                    </center>
+                    <center>
+                        <img class="placementFirm" alt="" src="<?php echo base_url() ?>assets/images/people/sbi.png">
+                    </center>
+                </div>
+                <div class="col-md-3" id="placementCard">
+                    <center>
+                        <img class="placementImage" src="<?php echo base_url() ?>assets/images/people/Arti-union-bnk-clrk.png" />
+                    </center>
+                    <center>
+                        <p class="placementName main-color">Aarti</p>
+                        <p class="placement-card-post">Clerk</p>
+                        <p class="placement-card-org">Union Bank</p>
+                    </center>
+                    <center>
+                        <img class="placementFirm" alt="" src="<?php echo base_url() ?>assets/images/people/Union-bank-of-india.png">
                     </center>
                 </div>
 
