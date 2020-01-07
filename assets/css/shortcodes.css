@@ -1079,7 +1079,8 @@ h4.cta_heading{
 	border-radius:50%
 }
 .testimonials-grid .testimonials-content{
-	margin-left:50px
+	margin-left:50px;
+        text-align: justify;
 }
 
 .testimonials-grid .testimonials-name{

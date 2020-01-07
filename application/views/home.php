@@ -751,114 +751,45 @@
                     <div class="testimonials-grid">
                         <div class="col-md-3">
                             <div class="testimonials-img">
-                                <img alt="" src="assets/images/testimonials/1.jpg">
+                                <img alt="" src="<?php echo base_url() ?>assets/images/people/Aarti_PO_Bank _of_Baroda.png">
                             </div>
                             <div class="testimonials-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing. rhoncus a quis nisly Ut
-                                    vehicula in.</span>
-
+                                <span id="sf-para">Excellent!!! This is the best among all the offerings I have gone through. The tests are very relevant and have very good solutions and analysis. Excellent study material for preparations.</span>
+                               <div class="testimonials-name main-color">
+                                <strong>Aarti PO Bank of Baroda</strong> 
                             </div>
-                            <div class="testimonials-name main-color">
-                                <strong>Amy Bennett</strong>: ThemeForest
                             </div>
+                            
+                        </div>
+                       <div class="col-md-3">
+                            <div class="testimonials-img">
+                                <img alt="" src="<?php echo base_url() ?>assets/images/people/Aman_Indian_Bank_PO.png">
+                            </div>
+                            <div class="testimonials-content">
+                                <span id="sf-para">"I am really grateful to the excellent faculty and the Vibrant's test series that helped me throughout my preparation of IBPS PO. I enrolled in a 6 months course which immensely helped to ace my verbal and quants skills and prepared me completely for the IBPS PO exam. A very big thank you to George Edcare."</span>
+                               <div class="testimonials-name main-color">
+                                <strong>Aman PO Indian Bank</strong> 
+                            </div>
+                            </div>
+                            
                         </div>
                         <div class="col-md-3">
                             <div class="testimonials-img">
-                                <img alt="" src="assets/images/testimonials/2.jpg">
+                                <img alt="" src="<?php echo base_url() ?>assets/images/people/Aarti_PO_Bank _of_Baroda.png">
                             </div>
                             <div class="testimonials-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing. rhoncus a quis nisly Ut
-                                    vehicula.</span>
-
+                                <span id="sf-para">Excellent!!! This is the best among all the offerings I have gone through. The tests are very relevant and have very good solutions and analysis. Excellent study material for preparations.</span>
+                               <div class="testimonials-name main-color">
+                                <strong>Aarti PO Bank of Baroda</strong> 
                             </div>
-                            <div class="testimonials-name main-color">
-                                <strong>Gregory Fowler</strong>: ThemeForest
                             </div>
+                            
                         </div>
-                        <div class="col-md-3">
-                            <div class="testimonials-img">
-                                <img alt="" src="assets/images/testimonials/3.jpg">
-                            </div>
-                            <div class="testimonials-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing. rhoncus a quis nisly
-                                    Ut.</span>
-
-                            </div>
-                            <div class="testimonials-name main-color">
-                                <strong>Alice Carpenter</strong>: ThemeForest
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="testimonials-img">
-                                <img alt="" src="assets/images/testimonials/1.jpg">
-                            </div>
-                            <div class="testimonials-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing. rhoncus a quis nisly Ut
-                                    elit augue.</span>
-
-                            </div>
-                            <div class="testimonials-name main-color">
-                                <strong>Ellina Williams</strong>: ThemeForest
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="testimonials-img">
-                                <img alt="" src="assets/images/testimonials/2.jpg">
-                            </div>
-                            <div class="testimonials-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing. rhoncus a quis nisly Ut
-                                    vehicula.</span>
-
-                            </div>
-                            <div class="testimonials-name main-color">
-                                <strong>Gregory Fowler</strong>: ThemeForest
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="testimonials-img">
-                                <img alt="" src="assets/images/testimonials/1.jpg">
-                            </div>
-                            <div class="testimonials-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing. rhoncus a quis nisly Ut
-                                    vehicula in.</span>
-
-                            </div>
-                            <div class="testimonials-name main-color">
-                                <strong>Amy Bennett</strong>: ThemeForest
-                            </div>
-                        </div>
-
-                        <div class="col-md-3">
-                            <div class="testimonials-img">
-                                <img alt="" src="assets/images/testimonials/1.jpg">
-                            </div>
-                            <div class="testimonials-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing. rhoncus a quis nisly Ut
-                                    elit augue.</span>
-
-                            </div>
-                            <div class="testimonials-name main-color">
-                                <strong>Ellina Williams</strong>: ThemeForest
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="testimonials-img">
-                                <img alt="" src="assets/images/testimonials/3.jpg">
-                            </div>
-                            <div class="testimonials-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing. rhoncus a quis nisly
-                                    Ut.</span>
-
-                            </div>
-                            <div class="testimonials-name main-color">
-                                <strong>Alice Carpenter</strong>: ThemeForest
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div>
+      
         <!-- Notifications Start-->
         <div class="parallax md-padding" id="masthead">
             <div class="container">

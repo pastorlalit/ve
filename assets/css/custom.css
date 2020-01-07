@@ -825,3 +825,9 @@ canvas {
     border-radius:30px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .19), 0 2px 10px 0 rgba(0, 0, 0, .19);
 }
+
+#sf-para{
+        text-align: justify;
+        font-size:16px;
+        color:#616161;
+}
