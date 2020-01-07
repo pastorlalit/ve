@@ -3,7 +3,7 @@
         <!-- Logo start -->
         <div class="logo">
             <a href="<?php echo base_url() ?>">
-                <img alt="Vibrant Logo" src="<?php echo base_url() ?>assets/images/vibrant.png" />
+                <!--<img alt="Vibrant Logo" src="<?php echo base_url() ?>assets/images/vibrant.png" />-->
             </a>
         </div>
         <!-- Logo end -->
@@ -82,6 +82,8 @@
                                                     <li><a href="<?php echo base_url() ?>courses/mppeb_vyapam"><i class="fa fa-book"></i>MPPEB (Vyapam)</a>
                                                     </li>
                                                 </ul>
+
+                
                                             </li>
 
                                         </ul>
