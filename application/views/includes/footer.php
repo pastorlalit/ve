@@ -2,15 +2,16 @@
 <div class="parallax"  id="footer_wrapper">
     <div class="container" id="foot-content-wrapper">
         <div class="col-md-3">
-            <h3 class="lg-title">Popular <span class="main-color bolder">Exams</span></h3>
+            <h3 class="lg-title">Quick <span class="main-color bolder">Links</span></h3>
             <hr class="divider dev-style3">
             <ul class="custom-list style4">
-                <li><a href="#"><i class="fa fa-book"></i>IBPS</a></li>
-                <li><a href="#"><i class="fa fa-book"></i>SBI</a></li>
-                <li><a href="#"><i class="fa fa-book"></i>RRB</a></li>
-                <li><a href="#"><i class="fa fa-book"></i>LIC</a></li>
-                <li><a href="#"><i class="fa fa-book"></i>SSC</a></li>
-                <li><a href="#"><i class="fa fa-book"></i>Vyapam</a></li>
+                <li><a href="<?php echo base_url() ?>home"><i class="fa fa-book"></i>Home</a></li>
+                <li><a href="<?php echo base_url() ?>aboutus"><i class="fa fa-book"></i>About Us</a></li>
+                <li><a href="#"><i class="fa fa-book"></i>About Courses</a></li>
+                <li><a href="#"><i class="fa fa-book"></i>Courses offered</a></li>
+                <li><a href="#"><i class="fa fa-book"></i>Online Classes</a></li>
+                <li><a href="#"><i class="fa fa-book"></i>Blog</a></li>
+                
             </ul>
         </div>
         <div class="col-md-3">

@@ -751,7 +751,7 @@
                     <div class="testimonials-grid">
                         <div class="col-md-3">
                             <div class="testimonials-img">
-                                <img alt="" src="<?php echo base_url() ?>assets/images/people/Aarti_PO_Bank _of_Baroda.png">
+                                <img class="effect2" alt="" src="<?php echo base_url() ?>assets/images/people/Aarti_PO_Bank _of_Baroda.png">
                             </div>
                             <div class="testimonials-content">
                                 <span id="sf-para">Excellent!!! This is the best among all the offerings I have gone through. The tests are very relevant and have very good solutions and analysis. Excellent study material for preparations.</span>
@@ -766,7 +766,7 @@
                                 <img alt="" src="<?php echo base_url() ?>assets/images/people/Aman_Indian_Bank_PO.png">
                             </div>
                             <div class="testimonials-content">
-                                <span id="sf-para">"I am really grateful to the excellent faculty and the Vibrant's test series that helped me throughout my preparation of IBPS PO. I enrolled in a 6 months course which immensely helped to ace my verbal and quants skills and prepared me completely for the IBPS PO exam. A very big thank you to George Edcare."</span>
+                                <span id="sf-para">"I am really grateful to the excellent faculty and the <b>Vibrant's test series</b> that helped me throughout my preparation of IBPS PO. I enrolled in a 6 months course which immensely helped to ace my verbal and quants skills and prepared me completely for the IBPS PO exam. A very big thank you to Vijay Sir."</span>
                                <div class="testimonials-name main-color">
                                 <strong>Aman PO Indian Bank</strong> 
                             </div>
@@ -775,17 +775,31 @@
                         </div>
                         <div class="col-md-3">
                             <div class="testimonials-img">
-                                <img alt="" src="<?php echo base_url() ?>assets/images/people/Aarti_PO_Bank _of_Baroda.png">
+                                <img alt="" src="<?php echo base_url() ?>assets/images/people/Akaash_Bank_of_Maharashtr_ PO.png">
                             </div>
                             <div class="testimonials-content">
-                                <span id="sf-para">Excellent!!! This is the best among all the offerings I have gone through. The tests are very relevant and have very good solutions and analysis. Excellent study material for preparations.</span>
-                               <div class="testimonials-name main-color">
-                                <strong>Aarti PO Bank of Baroda</strong> 
-                            </div>
+                                <span id="sf-para">I cleared the IBPS PO and got an allotment in Bank of Maharashtra (PO). This is the result of <b>Vibrant’s </b> dedicated classroom training program that I had enrolled for, in order to prepare for bank exams. Faculty here are efficient and helpful and their guidance is not restricted to classroom sessions alone. The study material provided by the institute helped me better my concepts in all related areas. Online tests helped a lot in maximizing my scores in the actual exam.</span>
+                                <div class="testimonials-name main-color">
+                                    <strong>Aakash PO Bank of Maharashtra</strong> 
+                                </div>
                             </div>
                             
                         </div>
+                        <div class="col-md-3">
+                            <div class="testimonials-img">
+                                <img alt="" src="<?php echo base_url() ?>assets/images/people/Anupriya-sbi-clerk.png">
+                            </div>
+                            <div class="testimonials-content">
+                                <span id="sf-para">I thank the faculty members at <b>Vibrant</b> who helped and guided me right from the start, and instilled a strong sense of confidence in me. The practice tests went a long way in helping me sail through the exam. I owe my entry into the banking sector to the <b>Vibrant team</b>.</span>
+                                <div class="testimonials-name main-color">
+                                    <strong>Anupriya Clerk SBI</strong> 
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -793,122 +807,47 @@
         <!-- Notifications Start-->
         <div class="parallax md-padding" id="masthead">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="t-center bold font-40">
-                            <div class="m-b-2 counter-color"><i class="fa fa-coffee"></i></div>
-                            <span class="odometer odometer-theme-default" data-value="850" data-timer="500">
-                                <div class="odometer-inside">
-                                    <span class="odometer-digit"><span
-                                            class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">8</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">5</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">0</span></span></span></span></span>
+
+                        <div class="row icon-boxes-3">
+                            <div class="col-md-3">
+                                <div class="icon-box-3 circle">
+                                    <div class="icon-desc main-bg">
+                                        <i class="fa fa-users"></i>
+                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="850" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
+                                        <h4 class="white">Students</h4>
+                                    </div>
                                 </div>
-                            </span>
-                            <h4 class="m-t-1 counter-color">Students</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="t-center bold font-40">
-                            <div class="m-b-2 counter-color"><i class="fa fa-users"></i></div>
-                            <span class="odometer odometer-theme-default" data-value="12796" data-timer="500">
-                                <div class="odometer-inside"><span class="odometer-digit"><span
-                                            class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">1</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">2</span></span></span></span></span><span
-                                        class="odometer-formatting-mark">,</span><span class="odometer-digit"><span
-                                            class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">7</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">9</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">6</span></span></span></span></span>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="icon-box-3 circle">
+                                    <div class="icon-desc dark-bg">
+                                        <i class="fa fa-clock-o"></i>
+                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="4566" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">4</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">6</span></span></span></span></span></div></span></div>
+                                        <h4 class="white">Working Hours</h4>
+                                    </div>
                                 </div>
-                            </span>
-                            <h4 class="m-t-1 counter-color">Mock Tests</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="t-center bold font-40">
-                            <div class="m-b-2 counter-color"><i class="fa fa-globe"></i></div>
-                            <span class="odometer odometer-theme-default" data-value="85698" data-timer="500">
-                                <div class="odometer-inside">
-                                    <span class="odometer-digit"><span
-                                            class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">8</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">5</span></span></span></span></span><span
-                                        class="odometer-formatting-mark">,</span><span class="odometer-digit"><span
-                                            class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">6</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">9</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">8</span></span></span></span></span>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="icon-box-3 circle">
+                                    <div class="icon-desc red-bg">
+                                        <i class="fa fa-coffee"></i>
+                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="1530" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
+                                        <h4 class="white">Cofee Cups</h4>
+                                    </div>
                                 </div>
-                            </span>
-                            <h4 class="m-t-1 counter-color">Training sessions</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="t-center bold font-40">
-                            <div class="m-b-2 counter-color"><i class="fa fa-clock-o"></i></div>
-                            <span class="odometer odometer-theme-default" data-value="2960" data-timer="500">
-                                <div class="odometer-inside"><span class="odometer-digit"><span
-                                            class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">2</span></span></span></span></span><span
-                                        class="odometer-formatting-mark">,</span><span class="odometer-digit"><span
-                                            class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">9</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">6</span></span></span></span></span><span
-                                        class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
-                                            class="odometer-digit-inner"><span class="odometer-ribbon"><span
-                                                    class="odometer-ribbon-inner"><span
-                                                        class="odometer-value">0</span></span></span></span></span>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="icon-box-3 circle">
+                                    <div class="icon-desc pink-bg">
+                                        <i class="fa fa-home"></i>
+                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="250" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
+                                        <h4 class="white">Home Pages</h4>
+                                    </div>
                                 </div>
-                            </span>
-                            <h4 class="m-t-1 counter-color">Working Hours</h4>
+                            </div>
                         </div>
+
                     </div>
-                </div>
-            </div>
 
         </div>
 

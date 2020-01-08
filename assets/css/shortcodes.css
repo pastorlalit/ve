@@ -1063,10 +1063,11 @@ h4.cta_heading{
 	height: 150px;
 }
 .testimonials-grid .testimonials-img{
-	width: 40px;
-	height: 40px;
+	width: 100px;
+	height: 100px;
 	overflow: hidden;
-	margin-top:5px
+	margin-top:5px;
+        box-shadow: 0px 5px 10px 0px rgba(21, 10, 82, 0.35);
 }
 .testimonials-grid .testimonials-img{
 	float: left;
@@ -1084,7 +1085,8 @@ h4.cta_heading{
 }
 
 .testimonials-grid .testimonials-name{
-	padding:10px 0 0
+	padding:10px 0 0;
+        font-size:13px;
 }
 /*
 --------------- features --------------- */
