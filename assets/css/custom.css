@@ -831,3 +831,34 @@ canvas {
         font-size:16px;
         color:#616161;
 }
+#heading-call h3{
+       color:black;
+}
+.contactnumber{
+    font-size: 55px;
+    color:black;
+    font-weight:bold;
+}
+#fixedbutton {
+    position: fixed;
+    z-index: 999999;
+    bottom: 100px;
+    right: 10px;
+    
+}
+.pulse3-button:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none;
+}
+.pulse3-button {
+    -webkit-animation: pulse2 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse2 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse2 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse2 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+ @-webkit-keyframes pulse2 {to {box-shadow: 0 0 0 45px rgba(255, 184, 0, 0);}}
+    @-moz-keyframes pulse2 {to {box-shadow: 0 0 0 45px rgba(255, 184, 0, 0);}}
+    @-ms-keyframes pulse2 {to {box-shadow: 0 0 0 45px rgba(255, 184, 0, 0);}}
+    @keyframes pulse2 {to {box-shadow: 0 0 0 45px rgba(255, 122, 0, 0);}}

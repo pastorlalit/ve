@@ -1,4 +1,12 @@
+<div class="" id="callToAction">
+    <div class="container">
+        <center>
+            <h1 class=" white bolder contactnumber"><i class="fa fa-whatsapp"></i> 98-262-262-99</h1>
+        </center>
 
+
+    </div>
+</div>
 <div class="parallax"  id="footer_wrapper">
     <div class="container" id="foot-content-wrapper">
         <div class="col-md-3">
@@ -62,3 +70,4 @@
 
     </div>
 </div>
+<script async>(function(w, d) { w.CollectId = "5e1779384305bc6c0e8b4639"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>

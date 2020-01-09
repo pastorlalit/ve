@@ -1,3 +1,5 @@
+<!--<button class="pulse3-button" id="fixedbutton" data-toggle="modal" data-target=".modal-register" title="Let's Talk.."><i class="fa fa-1x fa-envelope" style="color:white"></i></button>-->
+
 <header class="top-head minimal no-border" data-sticky="false" id="topHead">
     <div class="container">
         <!-- Logo start -->

@@ -61,7 +61,7 @@
                                 <h4 class="cta_heading white">Gain rare, but in-demand skills & valuable knowledge so that
                                     you can stand out among competition & climb up the hierarchy.</h4>
                             </div>
-                            <a class="btn btn-xl  btn-white f-right roundedBorderBtn" href="#">Enquire Now</a>
+                            <a class="pulse3-button btn btn-xl  btn-white f-right roundedBorderBtn" href="#">Enquire Now</a>
                         </div>
 
                     </div>
@@ -744,7 +744,7 @@
         <div class="md-padding " id="testimonials">
             <div class="container">
                 <div class="heading centered main">
-                    <h3 class="uppercase lg-title">What People <span class="main-color">Said</span></h3>
+                    <h3 class="uppercase lg-title">What Students <span class="main-color">Said</span></h3>
                     <b class="head-sep"><u></u></b>
                 </div>
                 <div class="row">
@@ -813,7 +813,7 @@
                                 <div class="icon-box-3 circle">
                                     <div class="icon-desc main-bg">
                                         <i class="fa fa-users"></i>
-                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="850" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
+                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="1000" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">7</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
                                         <h4 class="white">Students</h4>
                                     </div>
                                 </div>
@@ -830,27 +830,27 @@
                             <div class="col-md-3">
                                 <div class="icon-box-3 circle">
                                     <div class="icon-desc red-bg">
-                                        <i class="fa fa-coffee"></i>
-                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="1530" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
-                                        <h4 class="white">Cofee Cups</h4>
+                                        <i class="fa fa-book"></i>
+                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="2500" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
+                                        <h4 class="white">Class Session</h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="icon-box-3 circle">
-                                    <div class="icon-desc pink-bg">
-                                        <i class="fa fa-home"></i>
-                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="250" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
-                                        <h4 class="white">Home Pages</h4>
+                                    <div class="icon-desc green-bg">
+                                        <i class="fa fa-paper-plane"></i>
+                                        <div class="box-number heavy white"><span class="count-title odometer odometer-theme-default" data-value="6000" data-timer="200"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></span></div>
+                                        <h4 class="white">Mock Tests</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
+                
+               </div>
 
         </div>
-
+        
         <!-- Student Notifications End-->
         <!-- Footer Start-->
         <?php include 'includes/footer.php'; ?>
