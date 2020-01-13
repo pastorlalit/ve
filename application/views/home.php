@@ -2,9 +2,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Vibrant Education-Bank PO,Bank Clerk,Bank SO,RRB,LIC,SSC</title>
-        <meta name="description" content="Vibrant is the preferred choice in Bhopal for aspirants of Bank PO, Bank Clerk, Bank SO, RRB, LIC, and SSC. Our courses are designed keeping in mind ease of understanding and enabling students to achieve success in the various entrance and competitive exams.">
-        <meta name="keywords" content="Best Bank Coaching in Bhopal, IBPS PO, IBPS SO, IBPS Clerk, SBI PO, SBI SO, SBI Clerk, RRB PO, RRB SO, RRB Clerk, LIC ASTT., LIC AAO, GIC AAO, GIC ASTT., SSC CGL, SSC CHSL, FCI Officer, Banking Test Series, Test Series for IBPS PO, Test Series for IBPS Clerk">
+        <title>Vibrant | Best Bank Coaching in Bhopal</title>
+        <meta name="description" content="Vibrant is the best bank coaching in Bhopal for aspirants of Bank PO, Bank Clerk, Bank SO, RRB, LIC, and SSC. Our courses are designed keeping in mind ease of understanding and enabling students to achieve success in the various entrance and competitive exams.">
+        <meta name="keywords" content="Best Bank Coaching in Bhopal, Banking coaching in Bhopal, bank po coaching, best bank po coaching, best bank po coaching in Bhopal, IBPS PO, IBPS SO, IBPS Clerk, SBI PO, SBI SO, SBI Clerk, RRB PO, RRB SO, RRB Clerk, LIC ASTT., LIC AAO, GIC AAO, GIC ASTT., SSC CGL, SSC CHSL, FCI Officer, Banking Test Series, Test Series for IBPS PO, Test Series for IBPS Clerk, online test series">
         <meta name="author" content="Vibrant Education Services">
         <meta name="format-detection" content="telephone=98-262-262-99"/>
         <!-- Devices Meta -->

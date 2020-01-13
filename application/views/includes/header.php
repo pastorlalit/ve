@@ -16,7 +16,7 @@
                     <li class="<?php if ($this->uri->uri_string() == '') { echo 'selected';} ?>">
                         <a href="<?php echo base_url() ?>"><span>Home</span></a>
                     </li>
-                    
+                    <!--Mega Menu Start-->
                     <li class="mega-menu <?php
                     if ($this->uri->uri_string() == 'courses' ||
                             $this->uri->uri_string() == 'courses/sbi_po' ||
@@ -94,7 +94,8 @@
                             </li>
                         </ul>
                     </li>
-                    
+                     <!--Mega Menu End-->
+                
                     <li class="<?php if ($this->uri->uri_string() == 'Testseries') { echo 'selected';} ?>"><a href="<?php echo base_url() ?>Testseries"><span>Test Series</span></a></li>
                     <li class="<?php if ($this->uri->uri_string() == 'Previouspapers') { echo 'selected';} ?>"><a href="<?php echo base_url() ?>Previouspapers"><span>Prev. Papers</span></a></li>
                     <li class="<?php if ($this->uri->uri_string() == 'Contactus') { echo 'selected';} ?>"><a href="<?php echo base_url() ?>Contactus"><span>Contact Us</span></a></li>
