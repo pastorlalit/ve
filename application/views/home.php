@@ -44,7 +44,7 @@
                                     </div>
                                 </div>-->
                                 <p>&nbsp;</p>
-                                <a class="pulse3-button btn btn-xl  btn-white f-left roundedBorderBtn" href="<?php echo base_url() ?>Contactus">Enquire Now</a>
+                                <a class="pulse3-button btn btn-xl  btn-white f-left roundedBorderBtn" href="<?php echo base_url() ?>contact-us">Enquire Now</a>
                             </div>
                         </div>
 

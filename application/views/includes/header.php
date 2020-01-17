@@ -5,7 +5,7 @@
         <!-- Logo start -->
         <div class="logo">
             <a href="<?php echo base_url() ?>">
-                <!--<img alt="Vibrant Education Logo" src="<?php echo base_url() ?>assets/images/vibrant.png" />-->
+                <img alt="Vibrant Education Logo" src="<?php echo base_url() ?>assets/images/vibrant.png" />
             </a>
         </div>
         <!-- Logo end -->
