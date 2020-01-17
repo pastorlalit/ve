@@ -34,7 +34,7 @@
                     </div>
                     <div class="breadcrumbs" id="breadcrumbs">
                         <div class="container">
-                            <a href="<?php echo base_url()?>">Home</a><i class="fa fa-long-arrow-right main-color"></i><span>Courses</span>
+                            <a href="<?php echo base_url()?>best-bank-coaching-in-bhopal">Home</a><i class="fa fa-long-arrow-right main-color"></i><span>Courses</span>
                         </div>
                     </div>
                 </div>

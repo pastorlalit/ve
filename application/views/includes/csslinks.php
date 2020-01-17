@@ -16,3 +16,4 @@
 <link id="theme_css" rel="stylesheet" href="<?php echo base_url('assets/css/light.css')?>">
 <link id="skin_css"  rel="stylesheet" href="<?php echo base_url('assets/css/skins/default.css')?>">
 
+<script async>(function(w, d) { w.CollectId = "5e1779384305bc6c0e8b4639"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>

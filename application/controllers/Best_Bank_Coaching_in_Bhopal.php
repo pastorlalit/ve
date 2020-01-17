@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Best_Bank_Coaching_in_Bhopal extends CI_Controller {
     
     public function index()
 	{

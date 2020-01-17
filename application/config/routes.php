@@ -49,6 +49,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'Home';
+$route['default_controller'] = 'Best_Bank_Coaching_in_Bhopal';
+$route['best-bank-coaching-in-bhopal'] = 'Best_Bank_Coaching_in_Bhopal';
+$route['about-us'] = 'aboutus';
+$route['courses-offered'] = 'CoursesOffered/Bank_Entrance_Exams';
+$route['courses/bank-entrance-exams'] = 'CoursesOffered/Bank_Entrance_Exams';
+$route['courses/ssc-entrance-exams'] = 'CoursesOffered/SSC_Entrance_Exams';
+$route['courses/railways-entrance-exams'] = 'CoursesOffered/Railways_Entrance_Exams';
+$route['courses/insurance-entrance-exams'] = 'CoursesOffered/Insurance_Entrance_Exams';
+$route['courses/english-for-all-competitive-exams'] = 'CoursesOffered/English_for_Competitive_Exams';
+$route['courses/descriptive-english-for-competitive-exams'] = 'CoursesOffered/Descriptive_English_for_Competitive_Exams';
+$route['courses/personal-interviews-and-group-discussion'] = 'CoursesOffered/Personal_Interviews_Group_Discussion_and_Group_Activities';
+$route['courses/spoken-english-classes-for-all'] = 'CoursesOffered/All_Levels_of_Spoken_English';
+$route['entrance-exams/online-testseries'] = 'Testseries';
+$route['entrance-exams/download-previous-years-papers'] = 'Previouspapers';
+$route['contact-us'] = 'Contactus';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

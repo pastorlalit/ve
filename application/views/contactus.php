@@ -2,9 +2,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Vibrant Education Services</title>
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <title>Contact Vibrant Education Services</title>
+        <meta name="description" content="Vibrant is the best bank coaching in Bhopal for aspirants of Bank PO, Bank Clerk, Bank SO, RRB, LIC, and SSC. Our courses are designed keeping in mind ease of understanding and enabling students to achieve success in the various entrance and competitive exams.">
+        <meta name="keywords" content="Best Bank Coaching in Bhopal, Online Test Series, online banking mock test series, test series ibps clerk, banking previous years question papers, IBPS PO, IBPS SO, IBPS Clerk, SBI PO, SBI SO, SBI Clerk, RRB PO, RRB SO, RRB Clerk, LIC ASTT., LIC AAO, GIC AAO, GIC ASTT., SSC CGL, SSC CHSL, FCI Officer, Banking Test Series, Test Series for IBPS PO, Test Series for IBPS Clerk, online test series">
+        <meta name="author" content="Vibrant Education Services">
+        <meta name="format-detection" content="telephone=98-262-262-99"/>
         <!-- Devices Meta -->
         <?php include 'includes/csslinks.php'; ?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
@@ -27,14 +29,14 @@
                     <div class="page-title" id="pageTitle">
                         <div class="container">
                             <div class="col-md-12">
-                                <h1>Contact Us</h1>
+                                <h1 class="uppercase bolder">Contact Us</h1>
                             </div>
                         </div>
 
                     </div>
                     <div class="breadcrumbs" id="breadcrumbs">
                         <div class="container">
-                            <a href="<?php echo base_url() ?>">Home</a><i class="fa fa-long-arrow-right main-color"></i> <span>Contact Us</span>
+                            <a href="<?php echo base_url() ?>best-bank-coaching-in-bhopal">Home</a><i class="fa fa-long-arrow-right main-color"></i> <span>Contact Us</span>
                         </div>
                     </div>
                 </div>
@@ -43,7 +45,7 @@
                         <div class="row row-eq-height">
                             <div class="col-md-6">
                                 <div class="heading style3">
-                                    <h3 class="uppercase">Our<span class="main-color"> Office</span></h3>
+                                    <h3 class="uppercase bolder">Our<span class="main-color"> Office</span></h3>
                                 </div>
                                 <div>
                                     <div class="row m-b-2 over-hidden">
@@ -59,7 +61,18 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div id="ROADMAP" class="gmap full m-b-3" style="height: 320px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-err-container"><div class="gm-err-content"><div class="gm-err-icon"><img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" draggable="false" style="user-select: none;"></div><div class="gm-err-title">Oops! Something went wrong.</div><div class="gm-err-message">This page didn't load Google Maps correctly. See the JavaScript console for technical details.</div></div></div></div></div>
+                                <div id="ROADMAP" class="gmap full m-b-3" style="height: 320px; position: relative; overflow: hidden;">
+                                    <div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
+                                        <div class="gm-err-container">
+                                            <div class="gm-err-content" id="map1">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14665.519282601492!2d77.4859216!3d23.2292617!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde029f61c2c4e17e!2sVIBRANT%20EDUCATION%20SERVICES!5e0!3m2!1sen!2sin!4v1579073701216!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>    
+                                            </div>
+                                                
+                                        </div>
+                                            
+                                    </div>
+                                        
+                                </div>
 
                             </div>
                             <div class="col-md-1">
@@ -67,7 +80,7 @@
                             </div>
                             <div class="col-md-5">
                                 <div class="heading style3">
-                                    <h3 class="uppercase"><span class="main-color">Get In </span> Touch</h3>
+                                    <h3 class="uppercase bolder"><span class="main-color">Get In </span> Touch</h3>
                                 </div>
                                 <?php 
                                $attributes = array('name'=>'contact','role' => 'form',);

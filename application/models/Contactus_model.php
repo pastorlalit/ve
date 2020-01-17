@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class contactus_model extends CI_Model
+class Contactus_model extends CI_Model
 {
 
 	var $table = 'contactqueries';

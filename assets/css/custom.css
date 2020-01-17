@@ -309,7 +309,7 @@ p, ul{
 }
 
 .gridBox {
-    cursor:pointer;
+    /*cursor:pointer;*/
     padding: 15px 0;
     height: 80px;
     background: white;
@@ -846,6 +846,11 @@ canvas {
     right: 10px;
     
 }
+#bestbankcoach{
+         color:white;
+         text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+         letter-spacing: 3px;  
+}
 .pulse3-button:hover {
     -webkit-animation: none;
     -moz-animation: none;
@@ -858,7 +863,30 @@ canvas {
     -ms-animation: pulse2 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
     animation: pulse2 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 }
+.vcourses{
+    border-radius:40px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:10px;
+    background:#007dca;
+    font-weight:bold;
+    font-size:12px; 
+    color:white;
+    box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+}
+#ROADMAP{
+    box-shadow: 0px 5px 15px 0px rgba(21, 10, 82, 0.35);
+}
+.vcourses:hover{
+    background:#ffb800;
+}
  @-webkit-keyframes pulse2 {to {box-shadow: 0 0 0 45px rgba(255, 184, 0, 0);}}
     @-moz-keyframes pulse2 {to {box-shadow: 0 0 0 45px rgba(255, 184, 0, 0);}}
     @-ms-keyframes pulse2 {to {box-shadow: 0 0 0 45px rgba(255, 184, 0, 0);}}
     @keyframes pulse2 {to {box-shadow: 0 0 0 45px rgba(255, 122, 0, 0);}}
+    
+    

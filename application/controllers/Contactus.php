@@ -3,7 +3,11 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Contactus extends CI_Controller {
-    
+    public function __construct()
+	 	{
+	 		parent::__construct();
+			$this->load->model('contactus_model');
+                }
     public function index()
 	{
 		$this->load->view('contactus');
@@ -26,7 +30,7 @@ class Contactus extends CI_Controller {
                 'contactmessage' => $this->input->post('contactmessage')
             );
             
-            $this->load->model('contactus_model');
+           
             $result = $this->contactus_model->contactus_add($contactFormData);
             if($result){
                 $this->session->set_flashdata('resultMsg','success');

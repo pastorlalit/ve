@@ -2,9 +2,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Vibrant | Best Bank Coaching in Bhopal</title>
+        <title>Best Bank Coaching in Bhopal</title>
         <meta name="description" content="Vibrant is the best bank coaching in Bhopal for aspirants of Bank PO, Bank Clerk, Bank SO, RRB, LIC, and SSC. Our courses are designed keeping in mind ease of understanding and enabling students to achieve success in the various entrance and competitive exams.">
-        <meta name="keywords" content="Best Bank Coaching in Bhopal, Banking coaching in Bhopal, bank po coaching, best bank po coaching, best bank po coaching in Bhopal, IBPS PO, IBPS SO, IBPS Clerk, SBI PO, SBI SO, SBI Clerk, RRB PO, RRB SO, RRB Clerk, LIC ASTT., LIC AAO, GIC AAO, GIC ASTT., SSC CGL, SSC CHSL, FCI Officer, Banking Test Series, Test Series for IBPS PO, Test Series for IBPS Clerk, online test series">
+        <meta name="keywords" content="Best Bank Coaching in Bhopal, Online Test Series, bank po coaching, best bank po coaching, best bank po coaching in Bhopal, IBPS PO, IBPS SO, IBPS Clerk, SBI PO, SBI SO, SBI Clerk, RRB PO, RRB SO, RRB Clerk, LIC ASTT., LIC AAO, GIC AAO, GIC ASTT., SSC CGL, SSC CHSL, FCI Officer, Banking Test Series, Test Series for IBPS PO, Test Series for IBPS Clerk, online test series">
         <meta name="author" content="Vibrant Education Services">
         <meta name="format-detection" content="telephone=98-262-262-99"/>
         <!-- Devices Meta -->
@@ -29,8 +29,9 @@
                                 <div class="HomePage__Banner__subtitle mt-8"><b>Vibrant</b> is the preferred choice in Bhopal
                                     for aspirants of Bank PO, Bank Clerk, Bank SO, RRB, LIC, and SSC. Our courses are designed
                                     keeping in mind ease of understanding and enabling students to achieve success in various
-                                    entrance and competitive exams.</div>
-                                <div class="HomePage__Banner__video mt-48">
+                                    entrance and competitive exams.
+                               </div>
+<!--                                <div class="HomePage__Banner__video mt-48">
                                     <div class="HomePage__Banner__video__control">
                                         <div class="HomePage__Banner__video__control__2">
                                             <img src="assets/images/bgs/v-icon.png" alt="Play">
@@ -41,31 +42,21 @@
                                         <div class="HomePage__Banner__video__title__subtext"><b
                                                 style="font-family: 'Orbitron', sans-serif;">INTRO VIDEO</b></div>
                                     </div>
-                                </div>
+                                </div>-->
+                                <p>&nbsp;</p>
+                                <a class="pulse3-button btn btn-xl  btn-white f-left roundedBorderBtn" href="<?php echo base_url() ?>Contactus">Enquire Now</a>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-xs-12" >
                             <div class="HomePage__Banner__image">
-                                <img src="assets/images/homepage_banner.png" width="90%" alt="Vibrant Home Page Banner"></div>
+                                <img src="<?php echo base_url() ?>assets/images/homepage_banner.png" width="90%" alt="Vibrant Home Page Banner"></div>
                         </div>
 
                     </div>
                 </div>
 
-                <div class="sm-padding" id="callToAction">
-                    <div class="container">
-                        <div class="cta_btn">
-                            <div class="f-left">
-                                <h2 class="cta_heading uppercase white">Looking for a high Paying Goverment Job?.</h2>
-                                <h4 class="cta_heading white">Gain rare, but in-demand skills & valuable knowledge so that
-                                    you can stand out among competition & climb up the hierarchy.</h4>
-                            </div>
-                            <a class="pulse3-button btn btn-xl  btn-white f-right roundedBorderBtn" href="#">Enquire Now</a>
-                        </div>
-
-                    </div>
-                </div>
+                 <?php include 'includes/cta.php'; ?>
                 <!-- Courses Row First start -->
                 <div class="parallax md-padding" id="HomePageRow1" data-stellar-background-ratio="0.6"
                      data-overlay="rgba(0,0,0,.1)">
@@ -75,11 +66,10 @@
                         </h3>
                     </div>
                     <div class="container">
-                        <a href="<?php echo base_url() ?>courses/ibps_po">
-                            <div class="col-md-3  gridBox">
+                         <div class="col-md-3  gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/ibps.png" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/ibps.png" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>IBPS PO</p>
@@ -87,12 +77,12 @@
                                 </div>
 
                             </div>
-                        </a>
-                        <a href="<?php echo base_url() ?>courses/ibps_clerk">
+                       
+                        
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/ibps.png" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/ibps.png" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>IBPS CLERK</p>
@@ -100,12 +90,11 @@
                                 </div>
 
                             </div>
-                        </a>   
-                        <a href="<?php echo base_url() ?>courses/ibps_so">
+                       
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/ibps.png" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/ibps.png" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>IBPS SO</p>
@@ -113,12 +102,11 @@
                                 </div>
 
                             </div>
-                        </a>    
-                        <a href="<?php echo base_url() ?>courses/sbi_po">
+                        
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/SBI.webp" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/SBI.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>SBI PO</p>
@@ -126,13 +114,11 @@
                                 </div>
 
                             </div>
-                        </a>    
-
-                        <a href="<?php echo base_url() ?>courses/sbi_clerk">
+                       
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/SBI.webp" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/SBI.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>SBI CLERK</p>
@@ -140,12 +126,11 @@
                                 </div>
 
                             </div>
-                        </a>
-                        <a href="<?php echo base_url() ?>courses/sbi_so">
+                      
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/SBI.webp" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/SBI.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>SBI SO</p>
@@ -154,12 +139,11 @@
 
                             </div>
 
-                        </a>        
-                        <a href="<?php echo base_url() ?>courses/rrb_po">
+                      
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/ibps.png" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/RBI.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>RRB PO</p>
@@ -167,12 +151,11 @@
                                 </div>
 
                             </div>
-                        </a>       
-                        <a href="<?php echo base_url() ?>courses/rrb_clerk">
+                       
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/ibps.png" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/RBI.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>RRB CLERK</p>
@@ -180,14 +163,11 @@
                                 </div>
 
                             </div>
-                        </a>      
-
-
-                        <a href="<?php echo base_url() ?>courses/rrb_so">
+                      
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/ibps.png" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/RBI.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>RRB SO</p>
@@ -195,12 +175,11 @@
                                 </div>
 
                             </div>
-                        </a>
-                        <a href="<?php echo base_url() ?>courses/lic_assistant">
+                      
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/LIC.webp" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/LIC.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>LIC ASTT.</p>
@@ -208,12 +187,11 @@
                                 </div>
 
                             </div>
-                        </a>       
-                        <a href="<?php echo base_url() ?>courses/lic_aao">
+                      
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/LIC.webp" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/LIC.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>LIC AAO</p>
@@ -222,25 +200,22 @@
 
                             </div>
 
-                        </a>       
-                        <a href="<?php echo base_url() ?>courses/gic_aao">
+                     
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/GIC.jpg" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/GIC.jpg" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>GIC AAO</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>       
-
-                        <a href="<?php echo base_url() ?>courses/gic_assistant">
+                       
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/GIC.jpg" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/GIC.jpg" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>GIC ASTT.</p>
@@ -248,49 +223,44 @@
                                 </div>
 
                             </div>
-                        </a>    
-                        <a href="<?php echo base_url() ?>courses/ssc_cgl">
+                       
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/SSC.webp" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/SSC.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>SCC CGL</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>    
-                        <a href="<?php echo base_url() ?>courses/ssc_chsl">
+                     
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/SSC.webp" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/SSC.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>SSC CHSL</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>    
-                        <a href="<?php echo base_url() ?>courses/ssc_mts">
+                     
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/SSC.webp" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/SSC.webp" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>SSC MTS</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>    
-
-                        <a href="<?php echo base_url() ?>courses/fci_officer">
+                       
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/FCI.png" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/FCI.png" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>FCI Officer level</p>
@@ -298,24 +268,22 @@
                                 </div>
 
                             </div>
-                        </a>
-                        <a href="<?php echo base_url() ?>courses/fci_clerk">
+                        
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/FCI.png" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/FCI.png" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>FCI Clerk</p>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                        <a href="<?php echo base_url() ?>courses/">
+                       
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/Indian_Railway.png" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/Indian_Railway.png" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>Railway Recruitment Board</p>
@@ -324,12 +292,11 @@
 
                             </div>
 
-                        </a>
-                        <a href="<?php echo base_url() ?>courses/mppeb_vyapam">
+                      
                             <div class="col-md-3 gridBox">
                                 <div class="gridBoxInner">
                                     <div class="gridBoxIcon">
-                                        <img src="assets/images/exams/peb.jpg" />
+                                        <img src="<?php echo base_url() ?>assets/images/exams/peb.jpg" />
                                     </div>
                                     <div class="gridBoxTitle">
                                         <p>MPPEB (Vyapam)</p>
@@ -337,13 +304,7 @@
                                 </div>
 
                             </div>
-                        </a>
-
-
-
-
-
-                    </div>       
+                      </div>       
                 </div>
             </div>
 
@@ -361,7 +322,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="heading style3">
-                            <h3 class="uppercase"><b>Vibrant <span class="main-color">Test Series</span></b></h3>
+                            <h3 class="uppercase"><b>Vibrant <span class="main-color">Online Test Series</span></b></h3>
                             <p>Attempt our exam-wise mock tests daily to improve your score</p>
                         </div>
                         <div class="row">
@@ -545,7 +506,7 @@
                             <li>
                                 <div class="widget-post-info">
                                     <h4>
-                                        <a href="blog-single.html">
+                                        <a href="<?php echo base_url() ?>Contactus">
                                             SSC-CGL 2019-20 Classroom Course - Starting from 30th Nov 2019
                                         </a>
                                     </h4>
@@ -557,12 +518,12 @@
                             <li>
                                 <div class="widget-post-info">
                                     <h4>
-                                        <a href="blog-single.html">
-                                            Banking Classroom Course - Starting from 02 Dec 2019
+                                        <a href="<?php echo base_url() ?>Contactus">
+                                            Banking Classroom Course - Starting from 25 Jan 2020
                                         </a>
                                     </h4>
                                     <div class="meta">
-                                        <span>Nov 26, 2019</span>
+                                        <span>Jan 15, 2020</span>
                                     </div>
                                 </div>
                             </li>
@@ -857,13 +818,10 @@
 
         <!-- Footer End-->
 
-    </div>
 
-
-</div>
 
 <!-- Back to top Link -->
-<a id="to-top" href="#"><span class="fa fa fa-angle-up"></span></a>
+<!--<a id="to-top" href="#"><span class="fa fa fa-angle-up"></span></a>-->
 
 <?php include 'includes/jslinks.php'; ?>
 

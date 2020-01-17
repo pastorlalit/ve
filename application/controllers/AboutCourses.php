@@ -2,13 +2,13 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Courses extends CI_Controller {
+class AboutCourses extends CI_Controller {
     
     public function index()
 	{
 	  $this->load->view('courses');
 	}
-    public function ibps_po()
+    public function Ibps_po()
 	{
 	  $this->load->view('ibps-po');
 	}
