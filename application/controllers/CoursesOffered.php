@@ -28,6 +28,14 @@ class CoursesOffered extends CI_Controller {
 	{
 	  $this->load->view('English_for_Competitive_Exams');
 	}
+    public function gdpi()
+	{
+	  $this->load->view('gdpi');
+	}
+    public function spoken_english()
+	{
+	  $this->load->view('spoken-english');
+	}
     
    
 }

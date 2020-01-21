@@ -400,7 +400,7 @@
                             <li>
                                 <div class="widget-post-info">
                                     <h4>
-                                        <a href="https://gradeup.co/liveData/f/2020/1/sbi_clerk_2020_notification_40.pdf" target="_blank">
+                                        <a href="<?php echo base_url() ?>assets/pdfs/sbi_clerk_2020_notification_40.pdf" target="_blank">
                                             SBI Clerk Vacancy 2020, Check SBI Clerk State Wise Vacancy List
                                         </a>
                                     </h4>

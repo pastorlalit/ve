@@ -16,7 +16,7 @@
                 <li><a href="<?php echo base_url() ?>best-bank-coaching-in-bhopal">Home</a></li>
                 <li><a href="<?php echo base_url() ?>about-us">About Us</a></li>
                 <li><a href="<?php echo base_url() ?>courses/bank-entrance-exams">Courses offered</a></li>
-                <li><a href="<?php echo base_url() ?>entrance-exams/download-previous-years-papers">Download Previous Papers</a></li>
+                <li><a href="<?php echo base_url() ?>entrance-exams/download-previous-years-papers">Download Previous Year Papers</a></li>
                 <li><a href="<?php echo base_url() ?>entrance-exams/online-testseries">Test Series</a></li>
                 <li><a href="<?php echo base_url() ?>contact-us">Contact Us</a></li>
                 
