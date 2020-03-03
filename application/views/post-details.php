@@ -31,7 +31,15 @@
                     </div>
                     <div class="breadcrumbs" id="breadcrumbs">
                         <div class="container">
-                            <a href="<?php echo base_url() ?>best-bank-coaching-in-bhopal">Home</a><i class="fa fa-long-arrow-right main-color"></i><a href="<?php echo base_url() ?>resources/posts">Posts</a><i class="fa fa-long-arrow-right main-color"></i><span> <?php echo $post['title']; ?></span>
+                            <a href="<?php echo base_url() ?>best-bank-coaching-in-bhopal">Home</a>
+                            <i class="fa fa-long-arrow-right main-color"></i>
+                            <a href="<?php echo base_url() ?>resources/posts">Posts</a>
+                            <i class="fa fa-long-arrow-right main-color"></i>
+                            <span> <?php 
+                                        $title = word_limiter($post['title'], 5, '&#8230;');
+                                        echo $title;  
+                                    ?>
+                            </span>
                         </div>
                     </div>
                     <div class="container">
@@ -51,8 +59,7 @@
                                                 <div class="post-info">
                                                     <h2 class="main-color"><?php echo $post['title']; ?></h2>
                                                     <ul class="post-meta">
-                                                        <li><i class="fa fa-book post-icon main-color"></i></li>
-                                                        <li class="meta-user"><i class="fa fa-user"></i>By: <?php echo $post['author']; ?></li>
+                                                        <li class="meta-user"><i class="fa fa-user"></i>By: <b><?php echo $post['author']; ?></b></li>
                                                         <li class="meta_date"><i class="fa fa-clock-o"></i>
                                                             <?php 
                                                              $created_at = $post['created_at'];
@@ -100,7 +107,9 @@
                                                             <a href="<?php echo base_url('resources/post/' . $post['url_slug']); ?>"><img src="<?php echo base_url() . substr($post['blog_image'], 2); ?>" alt=""></a>
                                                         </div>
                                                         <div class="widget-post-info">
-                                                            <h5><a class="blog-list-head" href="<?php echo base_url('resources/post/' . $post['url_slug']); ?>"><?php echo $post['title']; ?></a></h5>
+                                                            <h5><a class="blog-list-head" href="<?php echo base_url('resources/post/' . $post['url_slug']); ?>"><?php 
+                                                            $title = word_limiter($post['title'], 5, '&#8230;');
+                                                            echo $title; ?></a></h5>
                                                             <div class="meta">
                                                                 <span><i class="fa fa-clock-o"></i><?php echo $posted_on; ?></span>
                                                             </div>

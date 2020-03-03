@@ -4,15 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url() ?>assets/images/vibrantfevicon.png" " />
-        <title>Vibrant Education</title>
+        <title>Blogs</title>
         <!-- Tell the browser to be responsive to screen width -->
         <?php include 'includes/csslinks.php'; ?>
     </head>
     <body class="hold-transition sidebar-mini skin-green">
         <div class="wrapper">
-
             <?php include 'includes/header.php'; ?>
-
             <?php include 'includes/sidebar.php'; ?>
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
@@ -38,23 +36,21 @@
                                     <div class="box">
                                         <div class="box-header">
                                             <?php 
-                                                   $resultMsg = $this->session->flashdata('resultMsg');
-                                                    switch ($resultMsg) {
+                                                   $blogUpdateMsg = $this->session->flashdata('blogUpdateMsg');
+                                                    switch ($blogUpdateMsg) {
                                                     case "success":
                                                         echo '<div class="alert alert-success square " data-close="true">
-                                                               <p>Blog deleted Successfully! <i class="fa fa-thumbs-o-up ico-block"></i></p>
+                                                               <p>Blog Updated Successfully! <i class="fa fa-thumbs-o-up ico-block"></i></p>
                                                               </div>';
                                                     break;
                                                     case "error":
                                                     echo '<div class="alert alert-danger square " data-close="true">
-                                                                <p><i class="fa fa-info-circle"></i>  Something went wrong!</p>
+                                                                <p><i class="fa fa-info-circle"></i> Something went wrong!</p>
                                                          </div>';
                                                     break;
                                                    
                                                     default:
-                                                    echo'<div class="form-msg" id="login-txt-box">
-                                                            <span class="text-login-msg"><b>Please try again</b></span>
-                                                         </div>';
+                                                    
                                                    
                                                     }
                                                     ?>
@@ -105,8 +101,8 @@
                                                                 ?>
                                                             </td>
                                                             <td><button id ="preview__blog" onclick="previewBlog(<?php echo $blog->blog_id; ?>)" type="button" class="btn btn-success btn-sm"  title="Click here to preview blog"><i class="fa fa-eye"></i></button></td>
-                                                            <td><button id="edit__blog" type="button" class="btn btn-warning btn-sm"  title="Click here to edit blog"><i class="fa fa-pencil-square-o"></i></button></td>
-                                                            <td><button  id="delete__blog" onclick="delBlog(<?php echo $blog->blog_id; ?>)"type="button" class="btn btn-danger btn-sm"  title="Click here to delete blog"><i class="fa fa-times"></i></button></td>
+                                                            <td><button id="edit__blog" type="button" onclick="editBlog(<?php echo $blog->blog_id; ?>)" class="btn btn-warning btn-sm"  title="Click here to edit blog"><i class="fa fa-pencil-square-o"></i></button></td>
+                                                            <td><button  id="delete__blog" onclick="delBlog(<?php echo $blog->blog_id; ?>)" type="button" class="btn btn-danger btn-sm"  title="Click here to delete blog"><i class="fa fa-times"></i></button></td>
                                                            
                                                         </tr>
                                                             <?php
@@ -125,7 +121,13 @@
                                                 </table>
                                             </div>         
 
-                                        </div><!-- /.box-body -->
+                                        </div>
+                                        <div class="box-footer">
+                                            
+                                            <div class="box-tools pull-right">
+                                                <?php  echo $this->pagination->create_links();   ?> 
+                                            </div>
+                                        </div> <!-- /.box-body -->
                                     </div><!-- /.box -->
                                 </div><!-- /.col -->
                             </div>
@@ -156,13 +158,15 @@
 <?php include 'includes/jslinks.php'; ?>
         <script type="text/javascript">
               function delBlog(id){
-                   alert(id); 
-                   if(confirm("Are you want to delete?")){
+                  if(confirm("Are you want to delete?")){
                        window.location.href = "<?php echo base_url().'Blog/delBlog/'?>"+id;
                    }
                 }
              function previewBlog(id){
               window.location.href = "<?php echo base_url().'Blog/blogDetails/'?>"+id;
+             }
+             function editBlog(id){
+                 window.location.href = "<?php echo base_url().'Blog/editBlog/'?>"+id;
              }
         </script>
 

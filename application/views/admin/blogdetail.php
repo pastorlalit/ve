@@ -9,7 +9,7 @@
   <?php include 'includes/csslinks.php'; ?>
   
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition sidebar-mini skin-green">
 <div class="wrapper">
 
   <?php include 'includes/header.php'; ?>
@@ -23,8 +23,9 @@
         <small>Blog Detail</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">View Blog</li>
+        <li><a href="<?php echo base_url() ?>AdminPanel"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="<?php echo base_url() ?>view-blogs"> Blogs</a></li>
+        <li class="active">Blog Details</li>
       </ol>
     </section>
 
@@ -32,10 +33,10 @@
     <section class="content">
          
       <div class="row">
-          <div class="col-md-2"></div>
-            <div class="col-md-8">
+          <div class="col-md-1"></div>
+            <div class="col-md-10">
                   <div class="box box-success">
-                      <img class="" width="100%"src="<?php echo base_url().substr($blog->blog_image,2); ?>"/>
+                      <img class=""  width="100%" src="<?php echo base_url().substr($blog->blog_image,2); ?>"/>
                       <h3 class="box-title blp-list-title"><?php echo $blog->title; ?></h3>
                       <div class="bdp-content">
                       <?php 
@@ -45,7 +46,7 @@
                       
                   </div>
               </div>
-          <div class="col-md-2"></div>
+          <div class="col-md-1"></div>
         
         
     

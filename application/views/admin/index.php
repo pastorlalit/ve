@@ -8,7 +8,7 @@
         <!-- Tell the browser to be responsive to screen width -->
         <?php include 'includes/csslinks.php'; ?>
     </head>
-    <body class="hold-transition sidebar-mini skin-green">
+    <body class="sidebar-mini skin-green" >
         <div class="wrapper">
 
             <?php include 'includes/header.php'; ?>
@@ -140,7 +140,7 @@
                                                                     <button type="button" class="btn btn-danger btn-sm" onclick="delete_query(<?php echo $enquiry->contactid; ?>)"><i class="fa fa-times"></i></button>
                                                                 </td>
                                                             </tr>
-<?php } ?>
+                                                        <?php } ?>
                                                     </thead>
                                                     <tbody>
 
@@ -178,8 +178,7 @@
                                                             <li><a href="#">View calendar</a></li>
                                                           </ul>
                                                         </div>-->
-                                        <button type="button" class="btn btn-success btn-sm" data-widget="collapse"><i class="fa fa-minus"></i>
-                                        </button>
+                                        <button type="button" class="btn btn-success btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
                                         <button type="button" class="btn btn-success btn-sm" data-widget="remove"><i class="fa fa-times"></i>
                                         </button>
                                     </div>
@@ -213,7 +212,7 @@
                 <!-- /.content -->
             </div>
             <!-- /.content-wrapper -->
-<?php include 'includes/footer.php'; ?>
+            <?php include 'includes/footer.php'; ?>
 
             <!-- Control Sidebar -->
 

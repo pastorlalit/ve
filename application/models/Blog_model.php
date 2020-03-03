@@ -12,12 +12,19 @@ class Blog_model extends CI_Model {
         return $this->db->insert_id();
     }
 
-    public function get_allBlogs() {
+    public function get_allBlogs($limit, $offset) {
         $this->db->order_by('created_at	', 'desc');
+        $this->db->limit($limit, $offset);
         $query = $this->db->get($this->table);
         return $query->result();
     }
     
+    public function num_rows() {
+        $q=$this->db->select()
+            ->from($this->table)
+            ->get();
+           return $q->num_rows();
+    }
     
     public function get_blogDetail($id) {
         $this->db->from($this->table);
@@ -50,9 +57,10 @@ class Blog_model extends CI_Model {
         return $result;
     }
 
-    public function query_update($where, $data) {
-        $this->db->update($this->table, $data, $where);
-        return $this->db->affected_rows();
+    public function updateBlog($id, $data) {
+        $this->db->where('blog_id', $id);
+        $this->db->update($this->table, $data);
+        return TRUE;
     }
     public function getBlog($blog_id) {
         $this->db->from($this->table);

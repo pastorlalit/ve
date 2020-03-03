@@ -2,10 +2,12 @@
 body{
    font-family: "Quattrocento Sans"; 
 }
+
 #sidebar-box{
      font-family: "Quattrocento Sans";
      font-weight:bold;
      line-height:24px;
+     
 }
 #admn-datatables{
       font-family: "Quattrocento Sans";
@@ -26,6 +28,7 @@ body{
 } 
 .validation-msg p{
     color:red;
+    font-weight:bold;
 }
 .blp-img{
     width:100%;
@@ -33,6 +36,10 @@ body{
 }
 .blp-list-title{
     padding:5px;
+    line-height:32px;
+    font-weight:bold;
+    font-family: "Quattrocento Sans";
+    font-size:30px;
 }
 .blp-content{
     padding:5px;
@@ -47,12 +54,23 @@ body{
     height:420px;
 }
 .bdp-content{
-    line-height:24px;
-    font-size:14px;
-    padding-left:10px;
-    padding-right:10px;
+    line-height:28px;
+    font-size:18px;
+    padding-left:15px;
+    padding-right:15px;
     padding-bottom:30px;
     text-align:justify;
+    font-family: "Quattrocento Sans";
+    
+}
+.bdp-content img{
+    padding-right: 10px;
+    padding-left:10px;
+    
+    
+}
+.content-header>.breadcrumb  {
+    cursor:pointer;
 }
 #add__blog, #reload__blogs, #preview__blog, #edit__blog, #delete__blog{
     cursor:pointer;

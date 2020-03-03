@@ -44,7 +44,7 @@
                         <div class="row">
                             <?php
                             if (!empty($posts)): foreach ($posts as $post):
-                                    $description = word_limiter($post['description'], 40, '&#8230;');
+                                    $description = word_limiter($post['description'], 20, '&#8230;');
                                     $created_at= $post['created_at'];
                                     $posted_on = date("d-m-Y", strtotime($created_at));
                                     ?>
@@ -60,7 +60,7 @@
                                                     <h4 class="m-b-1"><a href="<?php echo base_url('resources/post/' . $post['url_slug']); ?>"><?php echo $post['title']; ?></a></h4>
                                                     <ul class="post-meta">
                                                         <li class="meta-date"><i class="fa fa-clock-o"></i><?php echo $posted_on; ?></li>
-                                                        <li class="meta-category"><i class="fa fa-tag"></i>Posted by : <?php echo $post['author']; ?></li>
+                                                        <li class="meta-category"><i class="fa fa-tag"></i>Posted by : <b><?php echo $post['author']; ?></b></li>
                                                     </ul>
                                                     <p><?php echo $description ?></p>
                                                     <a class="blog-detail-link main-color" id="6" href="<?php echo base_url('resources/post/'.$post['url_slug']); ?>">Read more</a>
