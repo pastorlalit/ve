@@ -63,6 +63,24 @@ $route['courses/personal-interviews-and-group-discussion'] = 'CoursesOffered/gdp
 $route['courses/spoken-english-classes-for-all'] = 'CoursesOffered/spoken_english';
 $route['entrance-exams/online-testseries'] = 'Testseries';
 $route['entrance-exams/download-previous-years-papers'] = 'Previouspapers';
+$route['resources'] = 'Resources/index';
+$route['resources/current-affairs'] = 'Resources/Current_affairs';
+$route['resources/vocabulary'] = 'Resources/Vocabulary';
+
+$route['resources/practice-questions'] = 'Resources/Practice_questions';
+
+$route['resources/posts'] = 'Resources/Posts';
+$route['resources/post/(:any)'] = 'Resources/Post_details/$1';
 $route['contact-us'] = 'Contactus';
+$route['add-blogs'] = 'Blog/addBlog';
+$route['view-blogs'] = 'Blog/viewBlog';
+$route['blog-details'] = 'Blog/blogDetails';
+
+
+$route['posts'] = 'posts/index';
+$route['add-post'] = 'posts/add';
+
+
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

@@ -643,7 +643,61 @@ canvas {
     text-align: justify;
     margin-bottom:15px;
 }
-
+.blog-box{
+    margin-bottom: 20px;
+    height:475px;
+    background:white;
+    border-radius:4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .16), 0 2px 4px 0 rgba(0, 0, 0, .12);
+}
+.blog-content{
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:30px;
+    font-family: "Quattrocento Sans";
+    line-height:22px;
+    font-size:14px;
+}
+.blog-content h4{
+    font-weight: bold;
+    color: #616161;
+}
+.blog-content p{
+    color: #616161;
+}
+.blog-detail-link{
+    float:right;
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:5px;
+}  
+.blog-detail-link:hover{
+    color:#ffb800;
+}
+.blog-detail-box{
+    background:white;
+    font-family: "Quattrocento Sans";
+    
+}
+.blog-detail-box h2{
+    font-weight:bold;
+     
+}
+.blog-detail-box p{
+    font-size:16px;
+    line-height: 28px;
+    color: #616161;
+    text-align: justify;
+    margin-bottom: 15px;
+    
+}
+.blog-list-head{
+    font-family: "Quattrocento Sans";
+    font-weight: bold;
+}
+.post-image-h{
+    height:215px;
+}
 #about_page_intro{
      min-height: 400px;
     position: relative;
@@ -890,3 +944,98 @@ canvas {
     @keyframes pulse2 {to {box-shadow: 0 0 0 45px rgba(255, 122, 0, 0);}}
     
     
+ 
+    
+ .row .column.three {
+    width: 33.33%;
+}
+
+.row .column {
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.box-slide {
+    padding: 30px 30px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.box-slide .subheading {
+    margin: 0 0 30px;
+    padding: 15px 15px 15px 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1;
+    cursor: pointer;
+    font-weight:bold;
+    font-family:"Quattrocento Sans";
+}
+.box-slide .subheading.affairs::before {
+    width: 22px;
+    height: 20px;
+    background: url(../images/icon-affairs-calender.png) no-repeat left top;
+}
+.bg-green{
+   background:#27b999; 
+   background:linear-gradient(to bottom, #00b300, #55b500);
+}
+.bg-purple {
+    background-color: #8f72ff;
+     background:linear-gradient(to bottom, #0065ad, #0095ff);
+}
+.bg-pink {
+    background-color: #ff668f;
+    background:linear-gradient(to bottom, #e6a600, #ffb800 );
+}
+.box-slide ul li {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight:700;
+    line-height: 40px;
+    border-left:5px solid #007dca;
+}
+.box-slide ul li a {
+    display: block;
+    height: 40px;
+    padding: 0 20px 0 28px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    position: relative;
+    background-color: #fff;
+    color: #3b5681;
+}
+.box-slide ul li a:hover {
+    color: #ff8a00 ;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+a {
+    text-decoration: none;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+    cursor: pointer;
+    color: #ff5353;
+}
+.box-slide ul li a span {
+    display: inline-block;
+    padding: 0 0 0 35px;
+    background: url(../images/icon-affairs-calender.png) no-repeat left center;
+}
+

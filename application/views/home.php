@@ -7,6 +7,7 @@
         <meta name="keywords" content="Best Bank Coaching in Bhopal, Online Test Series, bank po coaching, best bank po coaching, best bank po coaching in Bhopal, IBPS PO, IBPS SO, IBPS Clerk, SBI PO, SBI SO, SBI Clerk, RRB PO, RRB SO, RRB Clerk, LIC ASTT., LIC AAO, GIC AAO, GIC ASTT., SSC CGL, SSC CHSL, FCI Officer, Banking Test Series, Test Series for IBPS PO, Test Series for IBPS Clerk, online test series">
         <meta name="author" content="Vibrant Education Services">
         <meta name="format-detection" content="telephone=98-262-262-99"/>
+        <meta name="google-site-verification" content="7Defy-LPjsLXiu4UrVz-cE9TUvInRVXGNGDiYhHBzSU" />
         <!-- Devices Meta -->
         <?php include 'includes/csslinks.php'; ?>
     </head>
@@ -310,8 +311,96 @@
 
         </div>
         <!-- Home Row First End -->
+        <div class="parallax md-padding" id="homeStundentPlaced">
 
+            <div class="container">
+              
+                    <div class="col-md-4">
+                        <div class="box-slide">
+                            <p class="subheading affairs bg-green"><span><i class="fa fa-newspaper-o"></i></span>&nbsp; &nbsp;  Current Affairs </p>
+                            <div class="box-hide">
+                                <ul>
+                                    <li>
+                                        <a href="" target="_blank"><span>17 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>14 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>13 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>12 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>11 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>10 February, 2020</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box-slide">
+                            <p class="subheading editorials bg-purple"><span><i class="fa fa-puzzle-piece"></i></span>&nbsp; &nbsp;  Vocabulary </p>
+                            <div class="box-hide">
+                                <ul>
+                                    <li>
+                                        <a href="" target="_blank"><span>17 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>14 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>13 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>12 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>11 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>10 February, 2020</span></a>
+                                    </li>
+                                     </ul>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box-slide">
+                            <p class="subheading editorials bg-pink"><span><i class="fa fa-trophy"></i></span>&nbsp; &nbsp;  Question of the day</p>
+                            <div class="box-hide">
+                                <ul>
+                                    <li>
+                                        <a href="" target="_blank"><span>17 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>14 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>13 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>12 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>11 February, 2020</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank"><span>10 February, 2020</span></a>
+                                    </li>
+                                     </ul>
+                            </div>
+                        </div>
+                    </div>
+              
 
+            </div>
+        </div>
         <!--Test Series start-->  
         <div class="sm-padding pattern-09" id="testSeries-home">
             <div class="container">

@@ -3,9 +3,7 @@
         <center>
             <h1 class=" white bolder contactnumber"><i class="fa fa-whatsapp"></i> 98-262-262-99</h1>
         </center>
-
-
-    </div>
+</div>
 </div>
 <div class="parallax"  id="footer_wrapper">
     <div class="container" id="foot-content-wrapper">

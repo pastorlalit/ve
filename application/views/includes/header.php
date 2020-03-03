@@ -5,7 +5,7 @@
         <!-- Logo start -->
         <div class="logo">
             <a href="<?php echo base_url() ?>">
-                <img alt="Vibrant Education Logo" src="<?php echo base_url() ?>assets/images/vibrant.png" />
+                 <!--<img alt="Vibrant Education Logo" src="<?php echo base_url() ?>assets/images/vibrant.png" />-->
             </a>
         </div>
         <!-- Logo end -->
@@ -60,14 +60,52 @@
                         </ul>
                     </li>
                     <!-- Courses Offered end -->
-                    <!--About courses Start-->
-                    
-                     <!--About Courses End-->
-                     
-                    <li class="<?php if ($this->uri->uri_string() == 'entrance-exams/online-testseries') { echo 'selected';} ?>"><a href="<?php echo base_url() ?>entrance-exams/online-testseries"><span>Test Series</span></a></li>
-                    <li class="<?php if ($this->uri->uri_string() == 'entrance-exams/download-previous-years-papers') { echo 'selected';} ?>"><a href="<?php echo base_url() ?>entrance-exams/download-previous-years-papers"><span>Prev. Papers</span></a></li>
+                         <li class="mega-menu <?php
+                    if ($this->uri->uri_string() == 'resources' ||
+                            $this->uri->uri_string() == 'resources/current-affairs' ||
+                            $this->uri->uri_string() == 'resources/vocabulary' ||
+                            $this->uri->uri_string() == 'resources/practice-questions' ||
+                            $this->uri->uri_string() == 'resources/blogs' ||
+                            $this->uri->uri_string() == 'entrance-exams/online-testseries' ||
+                            $this->uri->uri_string() == 'entrance-exams/download-previous-years-papers') {
+                        echo 'selected';
+                    }
+                    ?>"><a href="<?php echo base_url() ?>resources"><span>Resources</span></a>
+                        <ul style="padding: 0 4px;margin: 0 10px;">
+                            <li>
+                                <div class="mega-content">
+                                    <div class="row">
+                                        <ul style="background:#007dca; height: 250px; overflow-y: auto">
+                                            <li class="col-md-6">
+                                                <ul>
+                                                    <li><a href="<?php echo base_url() ?>resources/current-affairs"><i class="fa fa-book"></i>Current Affairs</a></li>
+                                                    <li><a href="<?php echo base_url() ?>resources/vocabulary"><i class="fa fa-book"></i>Vocabulary </a></li>
+                                                    <li><a href="<?php echo base_url() ?>resources/practice-questions"><i class="fa fa-book"></i>Question of the day</a></li>
+                                                   
+                                                 </ul>
+                                            </li>
+                                            <li class="col-md-6">
+                                                <ul>
+                                                    <li><a href="<?php echo base_url() ?>resources/posts"><i class="fa fa-book"></i>Blogs</a></li>
+                                                    <li><a href="<?php echo base_url() ?>entrance-exams/online-testseries"><i class="fa fa-book"></i>Test Series</a></li>
+                                                    <li><a href="<?php echo base_url() ?>entrance-exams/download-previous-years-papers"><i class="fa fa-book"></i>Previous Years Paper</a></li>
+                                                </ul>
+                                            </li>
+                                         </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="<?php if ($this->uri->uri_string() == 'contact-us') { echo 'selected';} ?>"><a href="<?php echo base_url() ?>contact-us"><span>Contact Us</span></a></li>
-                    
+                    <?php 
+                       
+                       if($this->session->userdata('userid')){ ?>
+                             <li class=""><a href="<?php echo base_url() ?>User/logout"><span>Logout</span></a></li>
+                    <?php }else{ ?>
+                    <li class="<?php if ($this->uri->uri_string() == 'User/login') {echo 'selected';} ?>"><a href="<?php echo base_url() ?>User/login"><span><i class="fa fa-key"></i> Login</span></a></li>
+                    <li><a href="" data-toggle="modal" data-target=".modal-register"><span><i class="fa fa-user"></i> Sign Up</span></a></li>
+                   <?php }?>
                 </ul>
             </nav>
             <!-- top navigation menu end -->

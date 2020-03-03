@@ -11,9 +11,9 @@ class Contactus_model extends CI_Model
 		$this->db->insert($this->table, $contactFormData);
 		return $this->db->insert_id();
 	}
-        public function all_queries()
+        public function get_all_enquiries()
         {
-        $this->db->from('quick_contact');
+        $this->db->from($this->table);
         $query=$this->db->get();
         return $query->result();
         }
