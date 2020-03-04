@@ -103,7 +103,7 @@
                        if($this->session->userdata('userid')){ ?>
                              <li class=""><a href="<?php echo base_url() ?>User/logout"><span>Logout</span></a></li>
                     <?php }else{ ?>
-                    <li class="<?php if ($this->uri->uri_string() == 'User/login') {echo 'selected';} ?>"><a href="<?php echo base_url() ?>User/login"><span><i class="fa fa-key"></i> Login</span></a></li>
+                    <li class="<?php if ($this->uri->uri_string() == 'User/login') {echo 'selected';} ?>"><a href="<?php echo base_url() ?>login"><span><i class="fa fa-key"></i> Login</span></a></li>
                     <li><a href="" data-toggle="modal" data-target=".modal-register"><span><i class="fa fa-user"></i> Sign Up</span></a></li>
                    <?php }?>
                 </ul>

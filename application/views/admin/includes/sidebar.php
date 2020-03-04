@@ -26,12 +26,12 @@
         <ul class="sidebar-menu" data-widget="tree">
             
             <li class="active">
-                <a href="<?php echo base_url() ?>AdminPanel">
+                <a href="<?php echo base_url() ?>admin-panel">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                 </a>
             </li>
             <li>
-                <a href="<?php echo base_url() ?>home/orders">
+                <a href="<?php echo base_url() ?>enquiries">
                     <i class="fa  fa-commenting-o"></i> <span>Enquiries</span>
                 </a>
             </li>

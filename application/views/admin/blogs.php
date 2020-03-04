@@ -20,7 +20,7 @@
                         <small>Control panel</small>
                     </h1>
                     <ol class="breadcrumb">
-                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li><a href="<?php echo base_url() ?>admin-panel"><i class="fa fa-dashboard"></i> Home</a></li>
                         <li class="active">Blogs</li>
                     </ol>
                 </section>
@@ -81,6 +81,10 @@
                                                             <th width="10%">Date</th>
                                                             <th width="5%" colspan="3" style="text-align:center">Action</th>
                                                         </tr>
+                                                         
+                                                    </thead>
+                                                    <tbody>
+                                                          <tbody>
                                                         <?php
                                                         $sn = 0;
                                                         if (!empty($blogs)): foreach ($blogs as $blog):
@@ -111,9 +115,7 @@
                                                             ?>
                                                         <p>no data found</p>
                                                         <?php endif; ?>  
-                                                    </thead>
-                                                    <tbody>
-
+                                                    </tbody>
                                                     </tbody>
                                                     <tfoot>
 

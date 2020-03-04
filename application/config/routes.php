@@ -72,9 +72,14 @@ $route['resources/practice-questions'] = 'Resources/Practice_questions';
 $route['resources/posts'] = 'Resources/Posts';
 $route['resources/post/(:any)'] = 'Resources/Post_details/$1';
 $route['contact-us'] = 'Contactus';
+$route['login'] = 'User/login';
+$route['admin-panel'] = 'AdminPanel';
 $route['add-blogs'] = 'Blog/addBlog';
 $route['view-blogs'] = 'Blog/viewBlog';
 $route['blog-details'] = 'Blog/blogDetails';
+$route['enquiries'] = 'Enquiries/index';
+$route['add-enquiries'] = 'Enquiries/addEnquiries';
+$route['delete-enquiries'] = 'Enquiries/deleteEnquiry';
 
 
 $route['posts'] = 'posts/index';

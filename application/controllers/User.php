@@ -5,11 +5,14 @@ class User extends CI_Controller {
     
     public function index() {
         $this->load->view('User/login');
+        if($this->session->userdata('userid')){
+            return redirect('admin-panel');
+        }
         
     }
    public function login(){
        if($this->session->userdata('userid')){
-            return redirect('AdminPanel');
+            return redirect('admin-panel');
         }
         $this->load->library('user_agent');
         $this->load->library('form_validation');
@@ -23,7 +26,7 @@ class User extends CI_Controller {
             $userid = $this->Login_model->isValidate($username, $password);
             if($userid){
                 $this->session->set_userdata('userid',$userid);
-                return redirect('AdminPanel');
+                return redirect('admin-panel');
                
             } else {
                 $this->session->set_flashdata('login_failed','Invalid Username/Password');

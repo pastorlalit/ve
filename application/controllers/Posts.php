@@ -4,6 +4,9 @@ class Posts extends CI_Controller {
     
     function __construct() {
         parent::__construct();
+        if(!$this->session->userdata('userid')){
+            return redirect('login');
+        }
         $this->load->model('post');
         $this->load->helper('common');
         $this->load->library('form_validation');

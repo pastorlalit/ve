@@ -39,7 +39,6 @@ class Resources extends CI_Controller {
 
     public function Post_details($url_slug) {
         $data = array();
-        
         //get the post data
         $data['post'] = $this->Post->getRows(array('url_slug'=>$url_slug));
         $data['posts'] = $this->Post->getRows(array('limit'=>10));

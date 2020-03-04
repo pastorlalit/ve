@@ -25,7 +25,7 @@
                         <small>Edit Blog</small>
                     </h1>
                     <ol class="breadcrumb" id="bread__pointer">
-                        <li><a href="<?php echo base_url() ?>AdminPanel"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li><a href="<?php echo base_url() ?>admin-panel"><i class="fa fa-dashboard"></i> Home</a></li>
                         <li><a href="<?php echo base_url() ?>view-blogs">Blogs</a></li>
                         <li class="active">Edit Blog</li>
                     </ol>
@@ -39,30 +39,35 @@
                             <!-- general form elements -->
                             <div class="box box-primary">
                                 <div class="box-header with-border">
-                                    <?php
-                                    $resultMsg = $this->session->flashdata('resultMsg');
+                                  <?php
+                                   $resultMsg = $this->session->flashdata('resultMsg');
                                     switch ($resultMsg) {
                                         case "success":
-                                            echo '<div class="alert alert-success square " data-close="true">
+                                            echo '<div class="col-md-6 alert alert-success square " data-close="true">
                                                                <p>Blog Updated Successfully! <i class="fa fa-thumbs-o-up ico-block"></i></p>
                                                               </div>';
                                             break;
                                         case "error":
-                                            echo '<div class="alert alert-danger square " data-close="true">
+                                            echo '<div class="col-md-6 alert alert-danger square " data-close="true">
                                                                 <p><i class="fa fa-info-circle"></i>  Something went wrong!</p>
                                                          </div>';
                                             break;
 
                                         default:
-                                            echo'<div class="form-msg" id="login-txt-box">
+                                            echo'<div class="form-msg col-md-6" id="login-txt-box">
                                                             <span class="text-login-msg"><b>Please enter complete details.</b></span>
                                                          </div>';
                                     }
                                     ?>
+                                    <div class="pull-right">
+                                        <div class="pull-right box-tools">
+                                            <a id="go__back" href="<?php echo base_url() ?>view-blogs" type="button" class="btn btn-success"><i class="fa fa-backward"></i> Back</a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <?php
                                 $attributes = array('name' => 'add-blog', 'role' => 'form', 'enctype' => 'multipart/form-data', 'accept-charset' => 'utf-8');
-                                echo form_open('Blog/editBlog/'.$blog->blog_id, $attributes);
+                                echo form_open('Blog/editBlog/' . $blog->blog_id, $attributes);
                                 ?>
                                 <div class="box-body">
                                     <div class="form-group">
@@ -76,8 +81,8 @@
                                         <?php echo form_textarea(['class' => 'form-control', 'rows' => '5', 'name' => 'description', 'id' => 'editor1', 'type' => 'text', 'placeholder' => 'Enter description', 'value' => set_value('description', $blog->description)]); ?>
                                     </div>
                                     <div class="validation-msg"><?php echo form_error('description') ?></div>
-                                    
-                                    
+
+
                                     <div class="form-group">
                                         <label for="author">Author</label>
                                         <?php echo form_input(['class' => 'form-control', 'name' => 'author', 'id' => 'author', 'type' => 'text', 'placeholder' => 'Enter author name', 'value' => set_value('author', $blog->author)]); ?>
@@ -87,7 +92,7 @@
                                 <!-- /.box-body -->
                                 <div class="box-footer">
                                     <button type="submit" class="btn btn-success">Update</button>
-                                    <a href="<?php echo base_url('Blog/viewBlog/'.$this->uri->segment(3)) ?>" class="btn btn-danger">Cancel</a>
+                                    <a href="<?php echo base_url('Blog/viewBlog') ?>" class="btn btn-danger">Cancel</a>
                                 </div>
 
 
@@ -116,5 +121,14 @@
         <!-- jQuery 3 -->
 
         <?php include 'includes/jslinks.php'; ?>
+        <script>
+            $(function () {
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace('editor1');
+                //bootstrap WYSIHTML5 - text editor
+//      $('.textarea').wysihtml5();
+            });
+        </script>
     </body>
 </html>

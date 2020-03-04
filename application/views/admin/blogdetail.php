@@ -23,7 +23,7 @@
         <small>Blog Detail</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="<?php echo base_url() ?>AdminPanel"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="<?php echo base_url() ?>admin-panel"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="<?php echo base_url() ?>view-blogs"> Blogs</a></li>
         <li class="active">Blog Details</li>
       </ol>
@@ -31,7 +31,11 @@
 
     <!-- Main content -->
     <section class="content">
-         
+        <div class="pull-right">
+            <div class="pull-right box-tools">
+                <a id="go__back" href="<?php echo base_url() ?>view-blogs" type="button" class="btn btn-success"><i class="fa fa-backward"></i> Back</a>
+            </div>
+        </div> 
       <div class="row">
           <div class="col-md-1"></div>
             <div class="col-md-10">

@@ -25,8 +25,8 @@
                         <small>Add Blog</small>
                     </h1>
                     <ol class="breadcrumb">
-                        <li><a href="<?php echo base_url() ?>AdminPanel"><i class="fa fa-dashboard"></i> Home</a></li>
-                        <li><a href="<?php echo base_url() ?>view-blogs"><i class="fa fa-pencil-square-o"></i> Home</a>Add Blog</li>
+                        <li><a href="<?php echo base_url() ?>admin-panel"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li><a href="<?php echo base_url() ?>view-blogs"><i class="fa fa-pencil-square-o"></i> Blogs</a></li>
                         <li class="active">Add Blog</li>
                     </ol>
                 </section>
@@ -59,6 +59,11 @@
                                                          </div>';
                                     }
                                     ?>
+                                    <div class="pull-right">
+                                        <div class="pull-right box-tools">
+                                            <a id="go__back" href="<?php echo base_url() ?>view-blogs" type="button" class="btn btn-success"><i class="fa fa-backward"></i> Back</a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <?php
                                 $attributes = array('name' => 'add-blog', 'role' => 'form', 'enctype' => 'multipart/form-data', 'accept-charset' => 'utf-8');
@@ -90,7 +95,8 @@
                                 </div>
                                 <!-- /.box-body -->
                                 <div class="box-footer">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Save</button>
+                                    <a href="<?php echo base_url('Blog/viewBlog') ?>" class="btn btn-danger">Cancel</a>
                                 </div>
 
 
@@ -120,4 +126,13 @@
 
         <?php include 'includes/jslinks.php'; ?>
     </body>
+    <script>
+        $(function () {
+            // Replace the <textarea id="editor1"> with a CKEditor
+            // instance, using default configuration.
+            CKEDITOR.replace('editor1');
+            //bootstrap WYSIHTML5 - text editor
+//      $('.textarea').wysihtml5();
+        });
+    </script>
 </html>

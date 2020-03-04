@@ -162,7 +162,7 @@
                                         <button class="btn main-bg btn-lg border3px btn-submit" type="submit" id="contact-submit" name="contact-submit" value="submit"><i class="fa fa-send"></i>Send Message</button>
                                     </div>
 
-                                </form>
+                              
 
                                 <div class="socials-cont m-t-2">
                                     <div class="tbl social-list f-right">

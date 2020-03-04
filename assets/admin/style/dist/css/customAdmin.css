@@ -72,6 +72,99 @@ body{
 .content-header>.breadcrumb  {
     cursor:pointer;
 }
-#add__blog, #reload__blogs, #preview__blog, #edit__blog, #delete__blog{
+#add__blog, #reload__blogs, #preview__blog, #edit__blog, #delete__blog, #go__back{
     cursor:pointer;
+    pointer-events: auto;
+}
+.box-tools a{
+    cursor:pointer;
+    pointer-events: auto;
+}
+
+.contact-validation-msg p{
+    font-family:"Quattrocento Sans";
+    margin-top:5px;
+    margin-left:5px;
+    color:red;
+    font-weight:bold;
+}
+.error_msg{
+    font-weight: bold;
+    color:red;
+    font-family:"Quattrocento Sans";
+}
+.form-msg{
+    margin-bottom:20px;
+}
+
+
+/* The container */
+.enq__checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.enq__checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 29px;
+  width: 31px;
+  background-color: #eee;
+  border-radius:3px;
+  border:1px solid #2196F3;
+  
+}
+
+/* On mouse-over, add a grey background color */
+.enq__checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.enq__checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.enq__checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.enq__checkbox .checkmark:after {
+  left: 10px;
+  top: 3px;
+  width: 12px;
+  height: 18px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }

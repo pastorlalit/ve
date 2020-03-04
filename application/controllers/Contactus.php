@@ -22,6 +22,7 @@ class Contactus extends CI_Controller {
         $this->form_validation->set_rules('contactmessage', 'message', 'required');
         if ($this->form_validation->run()) {
             $contactFormData = array(
+                'createdtime' => date('Y-m-d'),
                 'contactname' => $this->input->post('contactname'),
                 'contactemail' => $this->input->post('contactemail'),
                 'contactnumber' => $this->input->post('contactnumber'),
