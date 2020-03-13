@@ -15,7 +15,6 @@ class Blog extends CI_Controller {
     }
     
     public function index() {
-        
          $this->load->view('admin/blogs');
     }
 
@@ -31,9 +30,13 @@ class Blog extends CI_Controller {
         'prev_tag_open' =>"<li>",
         'prev_tag_close' =>"</li>",
         'num_tag_open' =>"<li>",
-        'num_tag_close' =>"<li>",
+        'num_tag_close' =>"</li>",
         'cur_tag_open' =>"<li class='active'><a>",
-        'cur_tag_close' =>"</a></li>"
+        'cur_tag_close' =>"</a></li>",
+        'first_tag_open'=>"<li>",    
+        'first_tag_close'=>"<li>",    
+        'last_tag_open'=>"<li>",
+        'last_tag_close'=>"</li>",
 
  ];     
         $this->pagination->initialize($config);

@@ -41,7 +41,7 @@
                 </a>
             </li>
             <li>
-                <a href="<?php echo base_url() ?>add-blogs">
+                <a href="<?php echo base_url() ?>view-current-affairs">
                     <i class="fa  fa-paper-plane-o"></i> <span>Current Affairs</span>
                 </a>
             </li>

@@ -2,17 +2,17 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Blog_model extends CI_Model {
+class CurrentAffairs_model extends CI_Model {
 
-    var $table = 'blogs';
+    var $table = 'currentaffairs';
 
-    public function insert_blog($createBlog) {
+    public function insert_currentAffairs($createCurrentAffairs) {
 
-        $this->db->insert($this->table, $createBlog);
+        $this->db->insert($this->table, $createCurrentAffairs);
         return $this->db->insert_id();
     }
-        public function get_allBlogs($limit, $offset) {
-        $this->db->order_by('created_at	', 'desc');
+        public function get_all_currentAffairs($limit, $offset) {
+        $this->db->order_by('ca_date	', 'desc');
         $this->db->limit($limit, $offset);
         $query = $this->db->get($this->table);
         return $query->result();
@@ -25,16 +25,16 @@ class Blog_model extends CI_Model {
            return $q->num_rows();
     }
     
-    public function get_blogDetail($id) {
+    public function get_currentAffairsDetail($id) {
         $this->db->from($this->table);
-        $this->db->where('blog_id', $id);
+        $this->db->where('ca_id', $id);
         $query = $this->db->get();
         return $query->row();
     }
 
     public function getRows($params = array()) {
         $this->db->select('*');
-        $this->db->from("blogs");
+        $this->db->from($this->table);
 
         //set start and limit
         if (array_key_exists("start", $params) && array_key_exists("limit", $params)) {
@@ -56,19 +56,19 @@ class Blog_model extends CI_Model {
         return $result;
     }
 
-    public function updateBlog($id, $data) {
-        $this->db->where('blog_id', $id);
+    public function update_currentAffairs($id, $data) {
+        $this->db->where('ca_id', $id);
         $this->db->update($this->table, $data);
         return TRUE;
     }
-    public function getBlog($blog_id) {
+    public function get_currentAffairs($ca_id) {
         $this->db->from($this->table);
-        $this->db->where('blog_id', $blog_id);
+        $this->db->where('ca_id', $ca_id);
         $query = $this->db->get();
         return $query->row();
     }
-    public function deleteBlog($blog_id) {
-        $this->db->where('blog_id', $blog_id);
+    public function delete_currentAffairs($ca_id) {
+        $this->db->where('ca_id', $ca_id);
         $this->db->delete($this->table);
     }
 

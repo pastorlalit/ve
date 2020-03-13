@@ -72,7 +72,9 @@ $route['resources/practice-questions'] = 'Resources/Practice_questions';
 $route['resources/posts'] = 'Resources/Posts';
 $route['resources/post/(:any)'] = 'Resources/Post_details/$1';
 $route['contact-us'] = 'Contactus';
-$route['login'] = 'User/login';
+$route['login'] = 'Login/index';
+$route['logout'] = 'Login/logout';
+$route['register'] = 'Register/index';
 $route['admin-panel'] = 'AdminPanel';
 $route['add-blogs'] = 'Blog/addBlog';
 $route['view-blogs'] = 'Blog/viewBlog';
@@ -84,6 +86,11 @@ $route['delete-enquiries'] = 'Enquiries/deleteEnquiry';
 
 $route['posts'] = 'posts/index';
 $route['add-post'] = 'posts/add';
+$route['current-affairs'] = 'CurrentAffairs/index';
+$route['view-current-affairs'] = 'CurrentAffairs/viewCurrenAffairs';
+$route['current-affairs-details'] = 'CurrentAffairs/currentAffairsDetails';
+$route['add-current-affairs'] = 'CurrentAffairs/addCurrentAffairs';
+
 
 
 

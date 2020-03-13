@@ -48,10 +48,13 @@ class Enquiries extends CI_Controller {
         'prev_tag_open' =>"<li>",
         'prev_tag_close' =>"</li>",
         'num_tag_open' =>"<li>",
-        'num_tag_close' =>"<li>",
+        'num_tag_close' =>"</li>",
         'cur_tag_open' =>"<li class='active'><a>",
-        'cur_tag_close' =>"</a></li>"
-
+        'cur_tag_close' =>"</a></li>",
+        'first_tag_open'=>"<li>",    
+        'first_tag_close'=>"<li>",    
+        'last_tag_open'=>"<li>",
+        'last_tag_close'=>"</li>",
  ];     
         $this->pagination->initialize($config);
         $data['enquiries'] = $this->em->get_all_enquiries($config['per_page'], $this->uri->segment(3));

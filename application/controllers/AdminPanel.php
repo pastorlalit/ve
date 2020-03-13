@@ -10,7 +10,7 @@ class AdminPanel extends CI_Controller {
     }
 
     public function index() {
-        if(!$this->session->userdata('userid')){
+        if(!$this->session->userdata('user_id')){
             return redirect('login');
         }
         $data['enquiries']=$this->Contactus_model->get_all_enquiries();

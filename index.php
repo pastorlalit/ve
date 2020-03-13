@@ -35,7 +35,7 @@
  * @since	Version 1.0.0
  * @filesource
  */
-
+header('Content-Type: text/html; charset=utf-8');
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
