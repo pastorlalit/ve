@@ -4,7 +4,7 @@ class Posts extends CI_Controller {
     
     function __construct() {
         parent::__construct();
-        if(!$this->session->userdata('userid')){
+        if(!$this->session->userdata('user_id')){
             return redirect('login');
         }
         $this->load->model('post');

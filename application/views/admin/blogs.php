@@ -93,7 +93,15 @@
                                                         ?>
                                                         <tr>
                                                             <td><?php echo $sn; ?></td>
-                                                            <td><img src ="<?php echo base_url().substr($blog->blog_image, 2); ?>" height="50" width="50"/></td>
+                                                            <td><?php 
+                                                                    if($blog->blog_image){ ?>
+                                                                        <img src ="<?php echo base_url().substr($blog->blog_image, 2); ?>" height="50" width="50"/>
+                                                                   <?php }else{ ?>
+                                                                        <img src ="<?php echo base_url()?>/assets/uploads/no-image.png" height="50" width="50"/>
+                                                                  <?php  }
+                                                                            
+                                                            ?>
+                                                                </td>
                                                             <td><?php echo $blog->title; ?></td>
                                                             <td><?php echo $description; ?></td>
                                                             <td><?php echo $blog->url_slug ?></td>

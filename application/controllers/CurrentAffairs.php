@@ -6,7 +6,7 @@ class CurrentAffairs extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        if(!$this->session->userdata('userid')){
+        if(!$this->session->userdata('user_id')){
             return redirect('login');
         }
         $this->load->model('CurrentAffairs_model','cam');

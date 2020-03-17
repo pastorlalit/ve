@@ -40,7 +40,9 @@
           <div class="col-md-1"></div>
             <div class="col-md-10">
                   <div class="box box-success">
-                      <img class=""  width="100%" src="<?php echo base_url().substr($currentaffair->ca_image,2); ?>"/>
+                      <?php if ($currentaffair->ca_image) { ?>
+                          <img class=""  width="100%" src="<?php echo base_url().substr($currentaffair->ca_image,2); ?>"/>
+                      <?php } ?>
                       <h3 class="box-title blp-list-title"><?php echo $currentaffair->ca_title; ?></h3>
                       <div class="bdp-content">
                       <?php 

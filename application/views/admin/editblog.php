@@ -81,7 +81,26 @@
                                         <?php echo form_textarea(['class' => 'form-control', 'rows' => '5', 'name' => 'description', 'id' => 'editor1', 'type' => 'text', 'placeholder' => 'Enter description', 'value' => set_value('description', $blog->description)]); ?>
                                     </div>
                                     <div class="validation-msg"><?php echo form_error('description') ?></div>
-
+                                    <div class="form-group">
+                                        <?php 
+                                            if($blog->blog_image){ ?>
+                                                <img src ="<?php echo base_url().substr($blog->blog_image, 2); ?>" height="100" width="100"/> 
+                                           <?php } else { ?>
+                                                <img src ="<?php echo base_url()?>/assets/uploads/no-image.png" height="100" width="100"/>
+                                          <?php    }
+                                        
+                                        ?>
+                                        <?php echo form_input(['class' => 'form-control', 'name' => 'old-blog-image', 'id' => 'old-blog-image', 'type' => 'hidden', 'value' => set_value('old-blog-image', $blog->blog_image)]); ?>
+                                       
+                                    </div>
+                                   <div class="form-group">
+                                        <label for="image">Change Image</label>
+                                        <?php echo form_input(['class' => 'form-control', 'name' => 'blog-image', 'id' => 'blog-image', 'type' => 'file', 'value' => set_value('blog-image')]); ?>
+                                        <p class="help-block">Please choose the image with extention jpg or png only.</p>
+                                    </div>
+                                    <div class="validation-msg"><?php echo form_error('blog-image') ?></div>
+                                    
+                                    
 
                                     <div class="form-group">
                                         <label for="author">Author</label>

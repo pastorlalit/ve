@@ -105,7 +105,16 @@
                                                         ?>
                                                         <tr>
                                                             <td><?php echo $sn; ?></td>
-                                                            <td><img src ="<?php echo base_url().substr($currentaffair->ca_image, 2); ?>" height="50" width="50"/></td>
+                                                            <td>
+                                                                <?php 
+                                                                    if($currentaffair->ca_image){ ?>
+                                                                        <img src ="<?php echo base_url().substr($currentaffair->ca_image, 2); ?>" height="50" width="50"/>
+                                                                   <?php }else{ ?>
+                                                                        <img src ="<?php echo base_url()?>/assets/uploads/no-image.png" height="50" width="50"/>
+                                                                  <?php  }
+                                                            
+                                                            ?>
+                                                                </td>
                                                             <td><?php echo $currentaffair->ca_title; ?></td>
                                                             <td><?php echo $description; ?></td>
                                                             <td><?php echo $currentaffair->url_slug ?></td>

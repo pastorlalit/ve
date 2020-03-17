@@ -6,7 +6,7 @@ class Blog extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        if(!$this->session->userdata('userid')){
+        if(!$this->session->userdata('user_id')){
             return redirect('login');
         }
         $this->load->model('Blog_model');
@@ -141,6 +141,8 @@ class Blog extends CI_Controller {
     }
     
     public function editBlog($blog_id) {
+        
+        
         $this->load->library('form_validation');
         $blog = $this->Blog_model->getBlog($blog_id);
         $data = array();
@@ -152,13 +154,43 @@ class Blog extends CI_Controller {
         $this->form_validation->set_rules('title', 'title', 'trim|required');
         $this->form_validation->set_rules('description', 'description', 'trim|required');
         $this->form_validation->set_rules('author', 'author', 'trim|required');
+        
+        
+        
         if ($this->form_validation->run() == true) {
-            
+            $old_image = $this->input->post('old-blog-image');
+                    $config['upload_path'] = './assets/uploads';
+                    $config['allowed_types'] = 'gif|jpg|png';
+                    $config['encrypt_name'] = TRUE;
 
+                    $this->load->library('upload', $config);
+                    if ($this->upload->do_upload("blog-image")) {
+                        $data = $this->upload->data();
+
+                        //Resize and Compress Image
+                        $config['image_library'] = 'gd2';
+                        $config['source_image'] = './assets/uploads/' . $data['file_name'];
+                        $config['create_thumb'] = FALSE;
+                        $config['maintain_ratio'] = FALSE;
+                        $config['quality'] = '90%';
+
+                        $config['new_image'] = './assets/uploads/' . $data['file_name'];
+                        $this->load->library('image_lib', $config);
+                        $this->image_lib->resize();
+                        $blog_image = $config['source_image'];
+                        
+//                      delete privious file
+                        unlink($old_image);
+
+                    }else{
+                        $blog_image = $old_image;
+                    }
+                    
+                    
             $updateBlog = array(
                 'title' => $this->input->post('title'),
                 'description' => $this->input->post('description'),
-                
+                'blog_image' => $blog_image,
                 'author' => $this->input->post('author'),
                 'created_at' => date('Y-m-d')
             );
