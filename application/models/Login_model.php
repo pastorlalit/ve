@@ -22,11 +22,22 @@ class Login_model extends CI_Model {
         if($query->num_rows()>0){
             
             foreach($query->result() as $row){
+                 
+//                 print_r($row->name);
+                
                 if($row->is_email_verified=='yes'){
                     $store_password = $this->encrypt->decode($row->password);
                     echo $store_password;
                     if($password === $store_password){
-                        $this->session->set_userdata('user_id',$row->user_id);
+                        $newdata = array(
+                            'user_id'=>$row->user_id,
+                            'uname' => $row->name,
+                            'email' => $row->email,
+                            'logged_in' => TRUE
+                    );
+                      $this->session->set_userdata($newdata);
+                   
+                      
                     }else{
                         return 'Wrong password';
                     }

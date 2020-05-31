@@ -75,7 +75,7 @@
                                                             <th width="5%">S.N.</th>
                                                             <th width="10%">Thumbnail</th>
                                                             <th width="10%">Title</th>
-                                                            <th width="40%">Description</th>
+                                                            <th width="10%">Description</th>
                                                             <th width="15%">URL Slug</th>
                                                             <th width="5%">Author</th>
                                                             <th width="10%">Date</th>
@@ -121,10 +121,15 @@
                                                             endforeach;
                                                         else:
                                                             ?>
-                                                        <p>no data found</p>
+                                                        <tr>
+                                                            <td colspan="8">
+                                                                <p class="text-red"><b>No data found..</b></p>
+                                                            </td>
+                                                        </tr>
+                                                          
                                                         <?php endif; ?>  
                                                     </tbody>
-                                                    </tbody>
+                                                   
                                                     <tfoot>
 
                                                     </tfoot>

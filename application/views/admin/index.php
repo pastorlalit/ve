@@ -111,6 +111,8 @@
 
                                         <div class="box-body">
                                             <div class="table-responsive"> 
+                                               <?php print_r($_SESSION['user_id']); echo $this->session->uname ?>   
+                                              
                                                 <table id="data" class="table table-bordered table-hover ">
                                                     <thead>
                                                         <tr>

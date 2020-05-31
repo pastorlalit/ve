@@ -308,7 +308,7 @@
                     </div>       
                 </div>
                 <!-- Home Row First End -->
-                <div class="parallax md-padding" id="homeStundentPlaced">
+<!--                <div class="parallax md-padding" id="homeStundentPlaced">
 
                     <div class="container">
 
@@ -397,7 +397,7 @@
 
 
                     </div>
-                </div>
+                </div>-->
                 <!--Test Series start-->  
                 <div class="sm-padding pattern-09" id="testSeries-home">
                     <div class="container">

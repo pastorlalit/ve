@@ -34,6 +34,7 @@ class Blog_model extends CI_Model {
 
     public function getRows($params = array()) {
         $this->db->select('*');
+        $this->db->order_by('created_at','DESC');
         $this->db->from("blogs");
 
         //set start and limit

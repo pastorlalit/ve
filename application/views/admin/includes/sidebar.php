@@ -7,7 +7,8 @@
                 <img src="<?php echo base_url('assets/admin/style/dist/img/lalit.png') ?>" class="img-circle" alt="User Image"/>
             </div>
             <div class="pull-left info">
-                <p>Lalit Pastor</p>
+                <p></p>
+                <p><?php echo $this->session->uname; ?></p>
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
         </div>
@@ -47,8 +48,23 @@
             </li>
 
             <li>
-                <a href="<?php echo base_url() ?>home/customersmgm">
+                <a href="<?php echo base_url() ?>daily-questions">
                     <i class="fa fa-sticky-note"></i> <span>Question of the day</span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo base_url() ?>vocabulary">
+                    <i class="fa fa-dashcube"></i> <span>Vocabulary</span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo base_url() ?>view-videos">
+                    <i class="fa fa-video-camera"></i> <span>Videos</span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo base_url() ?>users">
+                    <i class="fa fa-users"></i> <span>Users</span>
                 </a>
             </li>
 

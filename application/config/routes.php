@@ -57,20 +57,30 @@ $route['courses/bank-entrance-exams'] = 'CoursesOffered/Bank_Entrance_Exams';
 $route['courses/ssc-entrance-exams'] = 'CoursesOffered/SSC_Entrance_Exams';
 $route['courses/railways-entrance-exams'] = 'CoursesOffered/Railways_Entrance_Exams';
 $route['courses/insurance-entrance-exams'] = 'CoursesOffered/Insurance_Entrance_Exams';
+$route['courses/mppeb'] = 'CoursesOffered/Mppeb';
 $route['courses/english-for-all-competitive-exams'] = 'CoursesOffered/English_for_Competitive_Exams';
-$route['courses/descriptive-english-for-competitive-exams'] = 'CoursesOffered/Descriptive_English_for_Competitive_Exams';
+$route['courses/descriptive-english-for-competitive-exams'] = 'CoursesOffered/Descriptive_English';
 $route['courses/personal-interviews-and-group-discussion'] = 'CoursesOffered/gdpi';
 $route['courses/spoken-english-classes-for-all'] = 'CoursesOffered/spoken_english';
 $route['entrance-exams/online-testseries'] = 'Testseries';
 $route['entrance-exams/download-previous-years-papers'] = 'Previouspapers';
 $route['resources'] = 'Resources/index';
-$route['resources/current-affairs'] = 'Resources/Current_affairs';
+$route['resources/current-affairs'] = 'Resources/viewCurrenAffairsClient';
+$route['resources/current-affair/(:any)'] = 'Resources/CurrentAffairsDetails/$1';
+
+
 $route['resources/vocabulary'] = 'Resources/Vocabulary';
+$route['resources/videos'] = 'Resources/Video';
+$route['resources/video/(:any)'] = 'Resources/VideoDetails/$1';
 
-$route['resources/practice-questions'] = 'Resources/Practice_questions';
+$route['resources/blogs'] = 'Resources/ClientBlogs';
+$route['resources/blog/(:any)'] = 'Resources/BlogDetails/$1';
 
-$route['resources/posts'] = 'Resources/Posts';
-$route['resources/post/(:any)'] = 'Resources/Post_details/$1';
+$route['resources/questions'] = 'Resources/PracticeQuestions';
+$route['resources/question/(:any)'] = 'Resources/QuestionDetails/$1';
+
+
+
 $route['contact-us'] = 'Contactus';
 $route['login'] = 'Login/index';
 $route['logout'] = 'Login/logout';
@@ -79,6 +89,11 @@ $route['admin-panel'] = 'AdminPanel';
 $route['add-blogs'] = 'Blog/addBlog';
 $route['view-blogs'] = 'Blog/viewBlog';
 $route['blog-details'] = 'Blog/blogDetails';
+
+$route['add-video'] = 'Videos/addVideo';
+$route['view-videos'] = 'Videos/viewVideos';
+$route['video-details'] = 'Videos/videoDetails';
+
 $route['enquiries'] = 'Enquiries/index';
 $route['add-enquiries'] = 'Enquiries/addEnquiries';
 $route['delete-enquiries'] = 'Enquiries/deleteEnquiry';
@@ -90,6 +105,17 @@ $route['current-affairs'] = 'CurrentAffairs/index';
 $route['view-current-affairs'] = 'CurrentAffairs/viewCurrenAffairs';
 $route['current-affairs-details'] = 'CurrentAffairs/currentAffairsDetails';
 $route['add-current-affairs'] = 'CurrentAffairs/addCurrentAffairs';
+
+$route['daily-questions'] = 'Question_of_the_day/viewQuestions';
+$route['add-question'] = 'Question_of_the_day/addQuestion';
+
+
+
+$route['vocabulary'] = 'Vocabulary/viewVocab';
+$route['add-vocabulary'] = 'Vocabulary/addVocabulary';
+
+$route['users'] = 'User/viewUsers';
+$route['add-user'] = 'User/addUser';
 
 
 

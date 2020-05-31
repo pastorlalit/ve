@@ -87,10 +87,10 @@
                                                             <th width="5%">S.N.</th>
                                                             <th width="10%">Thumbnail</th>
                                                             <th width="10%">Title</th>
-                                                            <th width="40%">Description</th>
+                                                            <th width="30%">Description</th>
                                                             <th width="15%">URL Slug</th>
-                                                            <th width="10%">Date</th>
-                                                            <th width="10%">Created_at</th>
+                                                            <th width="20%">Date</th>
+                                                            <th width="15%">Created_at</th>
                                                             <th width="5%" colspan="3" style="text-align:center">Action</th>
                                                         </tr>
                                                          
@@ -121,26 +121,30 @@
                                                             
                                                             <td><?php 
                                                                 $date = $currentaffair->ca_date;
-                                                                        $date = date("d-m-Y", strtotime($date));
+                                                                        $date = date("F j, Y", strtotime($date));
                                                                  echo $date; 
                                                                 ?>
                                                             </td>
                                                             <td><?php 
                                                                 $created_at = $currentaffair->ca_created_at;
-                                                                        $posted_on = date("d-m-Y", strtotime($created_at));
+                                                                        $posted_on = date("F j, Y", strtotime($created_at));
                                                                  echo $posted_on; 
                                                                 ?>
                                                             </td>
-                                                            <td><button id ="preview__blog" onclick="preview_CurrentAffairs(<?php echo $currentaffair->ca_id; ?>)" type="button" class="btn btn-success btn-sm"  title="Click here to preview blog"><i class="fa fa-eye"></i></button></td>
-                                                            <td><button id="edit__blog" type="button" onclick="edit_CurrentAffairs(<?php echo $currentaffair->ca_id; ?>)" class="btn btn-warning btn-sm"  title="Click here to edit blog"><i class="fa fa-pencil-square-o"></i></button></td>
-                                                            <td><button  id="delete__blog" onclick="del_CurrentAffairs(<?php echo $currentaffair->ca_id; ?>)" type="button" class="btn btn-danger btn-sm"  title="Click here to delete blog"><i class="fa fa-times"></i></button></td>
+                                                            <td><button id ="preview__blog" onclick="preview_CurrentAffairs(<?php echo $currentaffair->ca_id; ?>)" type="button" class="btn btn-success btn-sm"  title="Click here to preview content"><i class="fa fa-eye"></i></button></td>
+                                                            <td><button id="edit__blog" type="button" onclick="edit_CurrentAffairs(<?php echo $currentaffair->ca_id; ?>)" class="btn btn-warning btn-sm"  title="Click here to edit content"><i class="fa fa-pencil-square-o"></i></button></td>
+                                                            <td><button  id="delete__blog" onclick="del_CurrentAffairs(<?php echo $currentaffair->ca_id; ?>)" type="button" class="btn btn-danger btn-sm"  title="Click here to delete content"><i class="fa fa-times"></i></button></td>
                                                            
                                                         </tr>
                                                             <?php
                                                             endforeach;
                                                         else:
                                                             ?>
-                                                        <p>no data found</p>
+                                                        <tr>
+                                                            <td colspan="8">
+                                                                <p class="text-red"><b>No data found..</b></p>
+                                                            </td>
+                                                        </tr>
                                                         <?php endif; ?>  
                                                     </tbody>
                                                     </tbody>

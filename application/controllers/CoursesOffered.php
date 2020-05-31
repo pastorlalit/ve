@@ -24,6 +24,10 @@ class CoursesOffered extends CI_Controller {
 	{
 	  $this->load->view('Insurance_Entrance_Exams');
 	}
+    public function Mppeb()
+	{
+	  $this->load->view('mppeb');
+	}
     public function English_for_Competitive_Exams()
 	{
 	  $this->load->view('English_for_Competitive_Exams');
@@ -35,6 +39,10 @@ class CoursesOffered extends CI_Controller {
     public function spoken_english()
 	{
 	  $this->load->view('spoken-english');
+	}
+    public function Descriptive_English()
+	{
+	  $this->load->view('descriptive-english');
 	}
     
    

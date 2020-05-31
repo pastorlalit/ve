@@ -36,7 +36,7 @@ class Login extends CI_Controller {
             
             if($result==''){
                 return redirect('admin-panel');
-               
+                 
             } else {
                 $this->session->set_flashdata('loginMsg',$result);
                 return redirect('Login');

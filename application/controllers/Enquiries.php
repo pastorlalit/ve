@@ -39,7 +39,7 @@ class Enquiries extends CI_Controller {
 //        Pagination
         $config=[
         'base_url' => base_url('Enquiries/index'),
-        'per_page' =>2,
+        'per_page' =>10,
         'total_rows' => $this->em->num_rows(),
         'full_tag_open'=>"<ul class='pagination'>",
         'full_tag_close'=>"</ul>",

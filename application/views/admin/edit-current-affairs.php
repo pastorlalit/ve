@@ -83,6 +83,18 @@
                                     </div>
                                     <div class="validation-msg"><?php echo form_error('ca_description') ?></div>
                                     <div class="form-group">
+                                        <?php 
+                                            if($currentaffair->ca_image){ ?>
+                                                <img src ="<?php echo base_url().substr($currentaffair->ca_image, 2); ?>" height="100" width="100"/> 
+                                           <?php } else { ?>
+                                                <img src ="<?php echo base_url()?>/assets/uploads/no-image.png" height="100" width="100"/>
+                                          <?php    }
+                                        
+                                        ?>
+                                        <?php echo form_input(['class' => 'form-control', 'name' => 'old-image', 'id' => 'old-image', 'type' => 'hidden', 'value' => set_value('old-image', $currentaffair->ca_image)]); ?>
+                                       
+                                    </div>
+                                    <div class="form-group">
                                         <label for="image">Image</label>
                                         <?php echo form_input(['class' => 'form-control', 'name' => 'ca_image', 'id' => 'ca_image', 'type' => 'file', 'value' => set_value('ca_image', $currentaffair->ca_image)]); ?>
                                         <p class="help-block">Please choose the image with extention jpg or png only.</p>

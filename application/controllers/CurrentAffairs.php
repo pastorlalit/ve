@@ -17,7 +17,7 @@ class CurrentAffairs extends CI_Controller {
     public function index() {
          $config=[
         'base_url' => base_url('CurrentAffairs'),
-        'per_page' =>2,
+        'per_page' =>4,
         'total_rows' => $this->cam->num_rows(),
         'full_tag_open'=>"<ul class='pagination'>",
         'full_tag_close'=>"</ul>",
@@ -67,7 +67,7 @@ class CurrentAffairs extends CI_Controller {
         $this->load->view('admin/current-affairs', $data);
     }
     
-
+   
     
 
     public function currentAffairsDetails($ca_id) {
@@ -84,7 +84,7 @@ class CurrentAffairs extends CI_Controller {
         $this->load->library('form_validation');
         $this->form_validation->set_rules('ca_title', 'title', 'trim|required');
         $this->form_validation->set_rules('ca_description', 'description', 'trim|required');
-        $this->form_validation->set_rules('ca_image', 'image', 'trim|required');
+       
         $this->form_validation->set_rules('ca_date', 'date', 'trim|required');
         
         $config['upload_path'] = './assets/uploads';
@@ -166,16 +166,42 @@ class CurrentAffairs extends CI_Controller {
             $this->session->set_flashdata('update', 'no-record');
             redirect(base_url().'view-current-affairs');
         }
-        
         $this->form_validation->set_rules('ca_title', 'title', 'trim|required');
         $this->form_validation->set_rules('ca_description', 'description', 'trim|required');
         $this->form_validation->set_rules('ca_date', 'date', 'trim|required');
         if ($this->form_validation->run() == true) {
-            
+                    $old_image = $this->input->post('old-image');
+                    $config['upload_path'] = './assets/uploads';
+                    $config['allowed_types'] = 'gif|jpg|png';
+                    $config['encrypt_name'] = TRUE;
+
+                    $this->load->library('upload', $config);
+                    if ($this->upload->do_upload("ca_image")) {
+                        $data = $this->upload->data();
+
+                        //Resize and Compress Image
+                        $config['image_library'] = 'gd2';
+                        $config['source_image'] = './assets/uploads/' . $data['file_name'];
+                        $config['create_thumb'] = FALSE;
+                        $config['maintain_ratio'] = FALSE;
+                        $config['quality'] = '90%';
+
+                        $config['new_image'] = './assets/uploads/' . $data['file_name'];
+                        $this->load->library('image_lib', $config);
+                        $this->image_lib->resize();
+                         $ca_image = $config['source_image'];
+                        
+//                      delete privious file
+                        unlink($old_image);
+
+                    }else{
+                        $ca_image = $old_image;
+                    }
 
             $CurrentAffairs = array(
                 'ca_title' => $this->input->post('ca_title'),
                 'ca_description' => $this->input->post('ca_description'),
+                'ca_image' => $ca_image,
                 'ca_date' => $this->input->post('ca_date'),
             );
 

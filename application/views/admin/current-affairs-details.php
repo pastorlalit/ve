@@ -36,6 +36,7 @@
                 <a id="go__back" href="<?php echo base_url() ?>view-current-affairs" type="button" class="btn btn-success"><i class="fa fa-backward"></i> Back</a>
             </div>
         </div> 
+         <div class="clearfix"></div>
       <div class="row">
           <div class="col-md-1"></div>
             <div class="col-md-10">

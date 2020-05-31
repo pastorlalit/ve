@@ -33,7 +33,8 @@ class Register extends CI_Controller {
                 'contact_no' => $this->input->post('contact_no'),
                 'verification_key' => $verification_key,
                 'is_email_verified' => 'no',
-                'user_type' => 'normal'
+                'user_type' => 'normal',
+                'status' => 'Active',
             );
            
             
@@ -90,6 +91,7 @@ class Register extends CI_Controller {
                 $data['message'] ='Invalid link';
             }else{
                 $data['message'] = 'Your email has been verified. You can login from <a class ="main-color  bolder" href ="'.base_url().'login">here</a>';
+                
             }
             $this->load->view('email_verification', $data);
             

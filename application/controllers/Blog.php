@@ -21,7 +21,7 @@ class Blog extends CI_Controller {
     public function viewBlog() {
         $config=[
         'base_url' => base_url('Blog/viewBlog'),
-        'per_page' =>2,
+        'per_page' =>4,
         'total_rows' => $this->Blog_model->num_rows(),
         'full_tag_open'=>"<ul class='pagination'>",
         'full_tag_close'=>"</ul>",
@@ -135,6 +135,9 @@ class Blog extends CI_Controller {
             $this->session->set_flashdata('resultMsg', 'error');
             redirect(base_url().'view-blogs');
         }
+        if ($blog->blog_image) {
+            unlink(base_url().substr($blog->blog_image, 2));
+        } 
         $this->Blog_model->deleteBlog($blog_id);
         $this->session->set_flashdata('resultMsg', 'success');
         redirect(base_url().'view-blogs');
